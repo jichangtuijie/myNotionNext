@@ -15,10 +15,10 @@ const BLOG = {
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NotionNext', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '记录与分享', // 作者简介
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'faiz', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '让那些一直知道且想做的事，开始真的发生。', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'AI实战, 知行合一, 个人跃迁', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
@@ -29,9 +29,9 @@ const BLOG = {
 
   // Starter 主题文案快速自定义（未配置时会回退到 themes/starter/config.js 的默认值）
   STARTER_HERO_ENABLE: true,
-  STARTER_HERO_TITLE_1: '欢迎来到我的博客',
-  STARTER_HERO_TITLE_2: '记录学习、工作与生活',
-  STARTER_HERO_BUTTON_1_TEXT: '阅读文章',
+  STARTER_HERO_TITLE_1: '别再往收藏夹里堆教程了。',
+  STARTER_HERO_TITLE_2: '打破知行断裂，用算法和多巴胺夺回人生掌控权。',
+  STARTER_HERO_BUTTON_1_TEXT: '查看实战笔记',
   STARTER_HERO_BUTTON_1_URL: '/archive',
   STARTER_HERO_BUTTON_2_TEXT: '',
   STARTER_HERO_BUTTON_2_URL: '',
@@ -45,31 +45,31 @@ const BLOG = {
   STARTER_BRANDS_ENABLE: false,
 
   STARTER_FEATURE_ENABLE: true,
-  STARTER_FEATURE_TITLE: '我在写什么',
-  STARTER_FEATURE_TEXT_1: '一些主题方向',
-  STARTER_FEATURE_TEXT_2: '技术笔记、产品与效率、读书与思考，以及生活随记。',
-  STARTER_FEATURE_1_TITLE_1: '技术笔记',
-  STARTER_FEATURE_1_TEXT_1: '开发、工具与踩坑记录',
-  STARTER_FEATURE_1_BUTTON_TEXT: '查看文章',
+  STARTER_FEATURE_TITLE: '我不灌鸡汤，我只发外挂',
+  STARTER_FEATURE_TEXT_1: '非IT小白用AI撸出SaaS的真实踩坑记录与系统。',
+  STARTER_FEATURE_TEXT_2: '',
+  STARTER_FEATURE_1_TITLE_1: '知行 OS 引擎',
+  STARTER_FEATURE_1_TEXT_1: '将吃灰的笔记无缝转化为带XP和金币的执行流。',
+  STARTER_FEATURE_1_BUTTON_TEXT: '了解系统',
   STARTER_FEATURE_1_BUTTON_URL: '/archive',
-  STARTER_FEATURE_2_TITLE_1: '产品与效率',
-  STARTER_FEATURE_2_TEXT_1: '方法论与工作流沉淀',
-  STARTER_FEATURE_2_BUTTON_TEXT: '查看文章',
+  STARTER_FEATURE_2_TITLE_1: 'AI 野生实战',
+  STARTER_FEATURE_2_TEXT_1: '只分享能立刻落地的低门槛 AI 变现与开发玩法。',
+  STARTER_FEATURE_2_BUTTON_TEXT: '看实操录',
   STARTER_FEATURE_2_BUTTON_URL: '/archive',
-  STARTER_FEATURE_3_TITLE_1: '读书与思考',
-  STARTER_FEATURE_3_TEXT_1: '读书笔记与观点整理',
-  STARTER_FEATURE_3_BUTTON_TEXT: '查看文章',
-  STARTER_FEATURE_3_BUTTON_URL: '/archive',
-  STARTER_FEATURE_4_TITLE_1: '生活随记',
-  STARTER_FEATURE_4_TEXT_1: '一些日常与片段',
-  STARTER_FEATURE_4_BUTTON_TEXT: '查看文章',
+  STARTER_FEATURE_3_TITLE_1: '',
+  STARTER_FEATURE_3_TEXT_1: '',
+  STARTER_FEATURE_3_BUTTON_TEXT: '',
+  STARTER_FEATURE_3_BUTTON_URL: '',
+  STARTER_FEATURE_4_TITLE_1: '',
+  STARTER_FEATURE_4_TEXT_1: '',
+  STARTER_FEATURE_4_BUTTON_TEXT: '',
   STARTER_FEATURE_4_BUTTON_URL: '/archive',
 
   STARTER_ABOUT_ENABLE: true,
-  STARTER_ABOUT_TITLE: '关于本站',
+  STARTER_ABOUT_TITLE: '我是谁？',
   STARTER_ABOUT_TEXT:
-    '这是一个用 Notion 作为内容源的个人站点。<br /><br />我会在这里持续更新文章与笔记，把重要的经验与想法整理成可复用的内容。',
-  STARTER_ABOUT_BUTTON_TEXT: '查看文章',
+    '经管学院出生，非IT背景。<br /><br />2025年半年用 Claude Code × (PRP+Spec) 开发范式，独立全栈开发 SaaS 系统。<br /><br />认知不是用来存的，是用来燃的。我只做一件事：把知道的，立刻变成做过的。',
+  STARTER_ABOUT_BUTTON_TEXT: '我的文章',
   STARTER_ABOUT_BUTTON_URL: '/archive',
 
   STARTER_PRICING_ENABLE: false,
@@ -87,7 +87,7 @@ const BLOG = {
 
   STARTER_CTA_ENABLE: false,
 
-  STARTER_FOOTER_SLOGAN: '记录与分享，让想法持续生长。',
+  STARTER_FOOTER_SLOGAN: '翻山的人，最懂山路有多难走。',
   STARTER_FOOTER_LINK_GROUP: [
     {
       TITLE: '导航',
