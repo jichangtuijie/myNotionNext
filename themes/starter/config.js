@@ -10,14 +10,13 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-  STARTER_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+  STARTER_HERO_TITLE_1: '不靠意志力，靠架构。', // 英雄区文字
+  STARTER_HERO_TITLE_2: '知行合一，是一套为 AI 时代重新设计的个人操作系统——让执行有结构，让知识能被用，让复盘生成数据。', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_URL:
-    'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: '立即获取系统', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_URL: '/#pricing', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: '查看功能详情', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: '/#feature', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
@@ -33,82 +32,76 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'NotionNext的主要特性', // 特性
-  STARTER_FEATURE_TEXT_2:
-    'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
+  STARTER_FEATURE_TITLE: '三大核心系统', // 特性
+  STARTER_FEATURE_TEXT_1: '知行合一的核心模块', // 特性
+  STARTER_FEATURE_TEXT_2: '执行有结构，知识能落地，复盘有数据——三个系统，形成完整闭环。', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
+  STARTER_FEATURE_1_TITLE_1: '执行系统', // 特性1
+  STARTER_FEATURE_1_TEXT_1: '四层架构（任务→项目→里程碑→目标）自动关联，29条自动化+65条公式零维护运行，内置多巴胺引擎对抗拖延。每一个微小行动，都知道自己在推进什么目标。', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
+  STARTER_FEATURE_1_BUTTON_URL: '/#feature', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
+  STARTER_FEATURE_2_TITLE_1: '知识整理系统', // 特性2
+  STARTER_FEATURE_2_TEXT_1: '知识→行动直通车，每条笔记直接关联支撑项目。四层分类树+双链自关联，构建真正可被调用的知识网络，而非收藏夹坟场。', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
-  STARTER_FEATURE_2_BUTTON_URL:
-    'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
+  STARTER_FEATURE_2_BUTTON_URL: '/#feature', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
+  STARTER_FEATURE_3_TITLE_1: '日志复盘系统', // 特性3
+  STARTER_FEATURE_3_TEXT_1: '五层复盘节律（日/周/月/季/年）数据自动装载，自律指数加权公式反速成文化，打开即有数据，注意力只用于思考。', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
+  STARTER_FEATURE_3_BUTTON_URL: '/#feature', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
+  STARTER_FEATURE_4_TITLE_1: '多巴胺引擎', // 特性4
+  STARTER_FEATURE_4_TEXT_1: 'XP / 金币 / 等级 / 双币经济，神经科学级激励设计内置于系统底层。完成任务自动触发奖励，对抗拖延从架构层面解决，无需意志力。', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
+  STARTER_FEATURE_4_BUTTON_URL: '/#feature', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
+  STARTER_ABOUT_TITLE: '为 AI 时代重新设计的个人操作系统',
   STARTER_ABOUT_TEXT:
-    'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
-  STARTER_ABOUT_BUTTON_TEXT: '了解更多',
-  STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
+    'AI 让信息获取成本趋近于零。但"执行力"和"整合力"，仍然是人类最稀缺的能力。知行合一不是又一个 Notion 模板，而是一套经过系统性设计的个人操作系统——让执行有架构可依，让知识真正落地，让复盘产生数据洞察。 <br /> <br /> 你一直都知道该怎么做。问题从来不是「知道」，而是「做到」。',
+  STARTER_ABOUT_BUTTON_TEXT: '立即获取',
+  STARTER_ABOUT_BUTTON_URL: '/#pricing',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+  STARTER_ABOUT_TIPS_1: '29条+',
+  STARTER_ABOUT_TIPS_2: '自动化规则',
+  STARTER_ABOUT_TIPS_3: '零维护自运转',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: true, // 价格区块开关
-  STARTER_PRICING_TITLE: '价格表',
-  STARTER_PRICING_TEXT_1: '很棒的定价计划',
-  STARTER_PRICING_TEXT_2:
-    '我们制定了灵活的付费模式，您可以按需选择。（NotionNext免费开源，这里仅演示产品订阅付费功能，请勿下单购买！）',
+  STARTER_PRICING_TITLE: '获取知行合一',
+  STARTER_PRICING_TEXT_1: '一次性买断，终身使用',
+  STARTER_PRICING_TEXT_2: '选择适合你当前阶段的版本，随时可升级。所有版本均包含完整的使用文档与快速上手指南。',
 
-  STARTER_PRICING_1_TITLE: '入门版',
-  STARTER_PRICING_1_PRICE: '19.9',
-  STARTER_PRICING_1_PRICE_CURRENCY: '$',
-  STARTER_PRICING_1_PRICE_PERIOD: '每月',
-  STARTER_PRICING_1_HEADER: '功能点',
-  STARTER_PRICING_1_FEATURES: '所有的主题,免费更新,帮助手册', // 英文逗号隔开
-  STARTER_PRICING_1_BUTTON_TEXT: '立即购买',
-  STARTER_PRICING_1_BUTTON_URL:
-    'https://tangly1024.lemonsqueezy.com/checkout/buy/c1a38a65-362e-44c5-8065-733fee39eb54',
+  STARTER_PRICING_1_TITLE: '标准版',
+  STARTER_PRICING_1_PRICE: '99',
+  STARTER_PRICING_1_PRICE_CURRENCY: '¥',
+  STARTER_PRICING_1_PRICE_PERIOD: '一次性',
+  STARTER_PRICING_1_HEADER: '包含功能',
+  STARTER_PRICING_1_FEATURES: '执行系统,知识整理系统,日志复盘系统,快速上手文档', // 英文逗号隔开
+  STARTER_PRICING_1_BUTTON_TEXT: '立即获取',
+  STARTER_PRICING_1_BUTTON_URL: '/#contact',
 
   STARTER_PRICING_2_TAG: '推荐',
-  STARTER_PRICING_2_TITLE: '基础版',
-  STARTER_PRICING_2_PRICE: '39.9',
-  STARTER_PRICING_2_PRICE_CURRENCY: '$',
-  STARTER_PRICING_2_PRICE_PERIOD: '每月',
-  STARTER_PRICING_2_HEADER: '功能点',
-  STARTER_PRICING_2_FEATURES: '包含入门版,项目源码,内部社群,技术咨询,SEO优化', // 英文逗号隔开
-  STARTER_PRICING_2_BUTTON_TEXT: '立即购买',
-  STARTER_PRICING_2_BUTTON_URL:
-    'https://tangly1024.lemonsqueezy.com/checkout/buy/590ad70a-c3b7-4caf-94ec-9ca27bde06d4',
+  STARTER_PRICING_2_TITLE: '完整版',
+  STARTER_PRICING_2_PRICE: '168',
+  STARTER_PRICING_2_PRICE_CURRENCY: '¥',
+  STARTER_PRICING_2_PRICE_PERIOD: '一次性',
+  STARTER_PRICING_2_HEADER: '包含功能',
+  STARTER_PRICING_2_FEATURES: '包含标准版全部内容,多巴胺引擎,健康管理系统,订阅跟踪系统,优先答疑支持', // 英文逗号隔开
+  STARTER_PRICING_2_BUTTON_TEXT: '立即获取',
+  STARTER_PRICING_2_BUTTON_URL: '/#contact',
 
-  STARTER_PRICING_3_TITLE: '高级版',
-  STARTER_PRICING_3_PRICE: '59.9',
-  STARTER_PRICING_3_PRICE_CURRENCY: '$',
-  STARTER_PRICING_3_PRICE_PERIOD: '每月',
-  STARTER_PRICING_3_HEADER: '功能点',
-  STARTER_PRICING_3_FEATURES: '包含基础版,功能定制开发', // 英文逗号隔开
-  STARTER_PRICING_3_BUTTON_TEXT: '立即购买',
-  STARTER_PRICING_3_BUTTON_URL:
-    'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
+  STARTER_PRICING_3_TITLE: '陪跑版',
+  STARTER_PRICING_3_PRICE: '299',
+  STARTER_PRICING_3_PRICE_CURRENCY: '¥',
+  STARTER_PRICING_3_PRICE_PERIOD: '一次性',
+  STARTER_PRICING_3_HEADER: '包含功能',
+  STARTER_PRICING_3_FEATURES: '包含完整版全部内容,1对1系统配置指导,专属答疑通道,未来版本免费更新', // 英文逗号隔开
+  STARTER_PRICING_3_BUTTON_TEXT: '立即获取',
+  STARTER_PRICING_3_BUTTON_URL: '/#contact',
 
   // 首页用户测评区块
   STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
@@ -177,32 +170,27 @@ const CONFIG = {
 
   //   FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
-  STARTER_FAQ_TITLE: '常见问题解答',
-  STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
-  STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
+  STARTER_FAQ_TITLE: '常见问题',
+  STARTER_FAQ_TEXT_1: '你可能想知道的',
+  STARTER_FAQ_TEXT_2: '关于知行合一系统的常见疑问',
 
-  STARTER_FAQ_1_QUESTION: 'NotionNext有帮助文档吗？',
-  STARTER_FAQ_1_ANSWER:
-    'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署',
+  STARTER_FAQ_1_QUESTION: '我没有 Notion 基础，能用这个系统吗？',
+  STARTER_FAQ_1_ANSWER: '可以。系统附带完整的快速上手文档，从零开始引导你配置好属于自己的知行合一。陪跑版还提供1对1配置指导，确保你真正用起来。',
 
-  STARTER_FAQ_2_QUESTION: '部署后要如何编写文章？',
-  STARTER_FAQ_2_ANSWER:
-    '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>',
+  STARTER_FAQ_2_QUESTION: '这和普通 Notion 模板有什么区别？',
+  STARTER_FAQ_2_ANSWER: '普通模板是「表格」，知行合一是「系统」。核心差异在于：任务与目标四层自动关联、知识与行动直通、复盘数据自动装载、29条自动化零维护运行。你不需要手动维护，系统会自己运转。',
 
-  STARTER_FAQ_3_QUESTION: '站点部署失败，更新失败？',
-  STARTER_FAQ_3_ANSWER:
-    '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助',
+  STARTER_FAQ_3_QUESTION: '系统维护起来会不会很复杂？',
+  STARTER_FAQ_3_ANSWER: '不会。系统的核心设计原则就是「零维护」——29条自动化和65条公式在后台静默运行。你唯一需要做的，就是把你的任务和笔记放进去，其余的交给系统。',
 
-  STARTER_FAQ_4_QUESTION: '文章没有实时同步？',
-  STARTER_FAQ_4_ANSWER:
-    '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
+  STARTER_FAQ_4_QUESTION: '购买后如何获取系统？',
+  STARTER_FAQ_4_ANSWER: '付款后你会收到系统的 Notion 模板链接，点击复制到你的工作区即可开始使用。同时附赠完整使用文档，帮助你快速完成初始配置。',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
-  STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '我们的开发者团队',
-  STARTER_TEAM_TEXT_2:
-    'NotionNext 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
+  STARTER_TEAM_TITLE: '关于创作者',
+  STARTER_TEAM_TEXT_1: '知行合一的背后',
+  STARTER_TEAM_TEXT_2: '知行合一由 faiz 独立设计与开发。作为一名深度 Notion 用户，faiz 用超过 2 年的时间打磨这套系统，目标只有一个：让「知道」真的开始发生。',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
@@ -231,20 +219,19 @@ const CONFIG = {
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '我们的博客',
+  STARTER_BLOG_TITLE: '使用心得',
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '最近的新闻',
-  STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+  STARTER_BLOG_TEXT_1: '来自真实用户的记录',
+  STARTER_BLOG_TEXT_2: '这里记录了使用知行合一系统过程中的真实体验、踩坑复盘，以及系统持续迭代的最新动态。',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
-  STARTER_CONTACT_TITLE: '联系我们',
-  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
-  STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
-  STARTER_CONTACT_LOCATION_TEXT: '中国，福建',
-  STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
-  STARTER_CONTACT_EMAIL_TEXT: 'mail@tangly1024.com',
+  STARTER_CONTACT_TITLE: '获取系统',
+  STARTER_CONTACT_TEXT: '有任何问题，直接告诉我',
+  STARTER_CONTACT_LOCATION_TITLE: '创作者所在地',
+  STARTER_CONTACT_LOCATION_TEXT: '中国',
+  STARTER_CONTACT_EMAIL_TITLE: '邮件联系',
+  STARTER_CONTACT_EMAIL_TEXT: 'moravekcarriger368@gmail.com',
 
   // 嵌入外部表单
   STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
@@ -292,59 +279,38 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  STARTER_FOOTER_SLOGAN: '让那些你一直知道但做不到的事，开始真的发生。',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: '关于我们',
+      TITLE: '产品',
       LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
-        {
-          TITLE: '帮助支持',
-          URL: 'https://docs.tangly1024.com/article/how-to-question'
-        },
-        {
-          TITLE: '合作申请',
-          URL: 'https://docs.tangly1024.com/article/my-service'
-        }
+        { TITLE: '功能介绍', URL: '/#feature' },
+        { TITLE: '定价方案', URL: '/#pricing' },
+        { TITLE: '常见问题', URL: '/#faq' },
+        { TITLE: '联系获取', URL: '/#contact' }
       ]
     },
     {
-      TITLE: '功能特性',
+      TITLE: '三大系统',
       LINK_GROUP: [
-        {
-          TITLE: '部署指南',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
-        },
-        {
-          TITLE: '升级指南',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
-        },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: '执行系统', URL: '/#feature' },
+        { TITLE: '知识整理系统', URL: '/#feature' },
+        { TITLE: '日志复盘系统', URL: '/#feature' }
       ]
     },
     {
-      TITLE: 'Notion写作',
+      TITLE: '关于',
       LINK_GROUP: [
-        {
-          TITLE: 'Notion开始写作',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
-        },
-        {
-          TITLE: '快捷键提升效率',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
-        },
-        {
-          TITLE: '中国大陆使用Notion',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
-        }
+        { TITLE: '创作者博客', URL: '/blog' },
+        { TITLE: '使用文档', URL: '/docs' },
+        { TITLE: '联系我', URL: '/#contact' }
       ]
     }
   ],
 
-  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
+  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新内容',
 
   STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
   STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
@@ -356,20 +322,19 @@ const CONFIG = {
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
   // 404页面的提示语
-  STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
-  STARTER_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
+  STARTER_404_TITLE: '这个页面不存在。',
+  STARTER_404_TEXT: '但你的执行系统可以存在。回到主页，开始让「知道」真的发生。',
   STARTER_404_BACK: '回到主页',
 
   // 页面底部的行动呼吁模块
   STARTER_CTA_ENABLE: true,
-  STARTER_CTA_TITLE: '你还在等待什么呢？',
-  STARTER_CTA_TITLE_2: '现在开始吧',
+  STARTER_CTA_TITLE: '你已经知道了足够多。',
+  STARTER_CTA_TITLE_2: '是时候让「知道」开始真的发生',
   STARTER_CTA_DESCRIPTION:
-    '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+    '你需要的不是更多信息。你需要的是一个让「知道」变成「做到」的系统。知行合一，为此而生。',
   STARTER_CTA_BUTTON: true, // 是否显示按钮
-  STARTER_CTA_BUTTON_URL:
-    'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
-  STARTER_CTA_BUTTON_TEXT: '开始体验',
+  STARTER_CTA_BUTTON_URL: '/#pricing',
+  STARTER_CTA_BUTTON_TEXT: '立即获取知行合一',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
   STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
