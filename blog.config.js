@@ -6,7 +6,7 @@ const BLOG = {
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID ||
     '02ab3b8678004aa69e9e415905ef32a5,en:7c1d570661754c8fbc568e00a01fd70e',
-  THEME: process.env.NEXT_PUBLIC_THEME || 'simple', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
+  THEME: process.env.NEXT_PUBLIC_THEME || 'starter', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2021, // e.g if leave this empty, current year will be used.
 
@@ -16,7 +16,7 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NotionNext', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '记录与分享', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
@@ -26,6 +26,88 @@ const BLOG = {
 
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
+
+  // Starter 主题文案快速自定义（未配置时会回退到 themes/starter/config.js 的默认值）
+  STARTER_HERO_ENABLE: true,
+  STARTER_HERO_TITLE_1: '欢迎来到我的博客',
+  STARTER_HERO_TITLE_2: '记录学习、工作与生活',
+  STARTER_HERO_BUTTON_1_TEXT: '阅读文章',
+  STARTER_HERO_BUTTON_1_URL: '/archive',
+  STARTER_HERO_BUTTON_2_TEXT: '',
+  STARTER_HERO_BUTTON_2_URL: '',
+  STARTER_HERO_BUTTON_2_ICON: '',
+
+  STARTER_NAV_BUTTON_1_TEXT: '',
+  STARTER_NAV_BUTTON_1_URL: '',
+  STARTER_NAV_BUTTON_2_TEXT: '',
+  STARTER_NAV_BUTTON_2_URL: '',
+
+  STARTER_BRANDS_ENABLE: false,
+
+  STARTER_FEATURE_ENABLE: true,
+  STARTER_FEATURE_TITLE: '我在写什么',
+  STARTER_FEATURE_TEXT_1: '一些主题方向',
+  STARTER_FEATURE_TEXT_2: '技术笔记、产品与效率、读书与思考，以及生活随记。',
+  STARTER_FEATURE_1_TITLE_1: '技术笔记',
+  STARTER_FEATURE_1_TEXT_1: '开发、工具与踩坑记录',
+  STARTER_FEATURE_1_BUTTON_TEXT: '查看文章',
+  STARTER_FEATURE_1_BUTTON_URL: '/archive',
+  STARTER_FEATURE_2_TITLE_1: '产品与效率',
+  STARTER_FEATURE_2_TEXT_1: '方法论与工作流沉淀',
+  STARTER_FEATURE_2_BUTTON_TEXT: '查看文章',
+  STARTER_FEATURE_2_BUTTON_URL: '/archive',
+  STARTER_FEATURE_3_TITLE_1: '读书与思考',
+  STARTER_FEATURE_3_TEXT_1: '读书笔记与观点整理',
+  STARTER_FEATURE_3_BUTTON_TEXT: '查看文章',
+  STARTER_FEATURE_3_BUTTON_URL: '/archive',
+  STARTER_FEATURE_4_TITLE_1: '生活随记',
+  STARTER_FEATURE_4_TEXT_1: '一些日常与片段',
+  STARTER_FEATURE_4_BUTTON_TEXT: '查看文章',
+  STARTER_FEATURE_4_BUTTON_URL: '/archive',
+
+  STARTER_ABOUT_ENABLE: true,
+  STARTER_ABOUT_TITLE: '关于本站',
+  STARTER_ABOUT_TEXT:
+    '这是一个用 Notion 作为内容源的个人站点。<br /><br />我会在这里持续更新文章与笔记，把重要的经验与想法整理成可复用的内容。',
+  STARTER_ABOUT_BUTTON_TEXT: '查看文章',
+  STARTER_ABOUT_BUTTON_URL: '/archive',
+
+  STARTER_PRICING_ENABLE: false,
+  STARTER_TESTIMONIALS_ENABLE: false,
+  STARTER_FAQ_ENABLE: false,
+  STARTER_TEAM_ENABLE: false,
+
+  STARTER_BLOG_ENABLE: true,
+  STARTER_BLOG_TITLE: '文章',
+  STARTER_BLOG_COUNT: 6,
+  STARTER_BLOG_TEXT_1: '最近更新',
+  STARTER_BLOG_TEXT_2: '从这里开始阅读。',
+
+  STARTER_CONTACT_ENABLE: false,
+
+  STARTER_CTA_ENABLE: false,
+
+  STARTER_FOOTER_SLOGAN: '记录与分享，让想法持续生长。',
+  STARTER_FOOTER_LINK_GROUP: [
+    {
+      TITLE: '导航',
+      LINK_GROUP: [
+        { TITLE: '首页', URL: '/#home' },
+        { TITLE: '文章归档', URL: '/archive' }
+      ]
+    },
+    {
+      TITLE: '分类',
+      LINK_GROUP: [
+        { TITLE: '分类', URL: '/category' },
+        { TITLE: '标签', URL: '/tag' }
+      ]
+    },
+    {
+      TITLE: '更多',
+      LINK_GROUP: [{ TITLE: 'RSS', URL: '/feed' }]
+    }
+  ],
 
   // 其它复杂配置
   // 原配置文件过长，且并非所有人都会用到，故此将配置拆分到/conf/目录下, 按需找到对应文件并修改即可
@@ -65,7 +147,7 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hi，我是一个程序员, Hi，我是一个打工人,Hi，我是一个干饭人,欢迎来到我的博客🎉',
+    '欢迎来到我的博客,记录与分享,保持好奇与持续输出',
 
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
