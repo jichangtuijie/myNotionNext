@@ -13,15 +13,9 @@ const Footer = ({ title }) => {
   return (
     <footer className='relative z-10 dark:bg-black flex-shrink-0 bg-hexo-light-gray justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm p-6'>
       {/* <DarkModeButton/> */}
-      <i className='fas fa-copyright' /> {`${copyrightDate}`}
+      © {siteConfig('TITLE')} {copyrightDate}
       <span>
-        <i className='mx-1 animate-pulse fas fa-heart' />
-        <a
-          href={siteConfig('LINK')}
-          className='underline font-bold  dark:text-gray-300 '>
-          {siteConfig('AUTHOR')}
-        </a>
-        .<br />
+        <br />
         <BeiAnSite />
         <BeiAnGongAn />
         <span className='hidden busuanzi_container_site_pv'>
@@ -35,7 +29,7 @@ const Footer = ({ title }) => {
         <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>
           {title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}
         </h1>
-        <PoweredBy className='justify-center' />
+        {/* <PoweredBy className='justify-center' /> */}
       </span>
       <br />
     </footer>

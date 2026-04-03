@@ -19,8 +19,7 @@ export const Footer = props => {
 
       <div className='container mx-auto max-w-4xl py-4 md:flex flex-wrap md:flex-no-wrap md:justify-between items-center text-sm'>
         <div className='text-center'>
-          &copy;{`${copyrightDate}`} {siteConfig('AUTHOR')}. All rights
-          reserved.
+          © {siteConfig('TITLE')} {copyrightDate}
         </div>
         <div className='md:p-0 text-center md:text-right text-xs'>
           {/* 右侧链接 */}
@@ -33,14 +32,14 @@ export const Footer = props => {
             </a>
           )}
           <BeiAnGongAn />
-          <span className='dark:text-gray-200 no-underline ml-4'>
+          {/* <span className='dark:text-gray-200 no-underline ml-4'>
             Powered by
             <a
               href='https://github.com/tangly1024/NotionNext'
               className=' hover:underline'>
               NotionNext {siteConfig('VERSION')}
             </a>
-          </span>
+          </span> */}
         </div>
       </div>
     </footer>

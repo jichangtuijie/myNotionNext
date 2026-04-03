@@ -13,14 +13,8 @@ const Footer = ({ title }) => {
     <footer className='relative z-10 dark:bg-gray-800 flex-shrink-0 justify-center text-center m-auto w-full leading-6 text-sm p-6 bg-white dark:text-gray-400'>
       <span>
         <DarkModeButton />
-        <i className='fas fa-copyright' /> {`${copyrightDate}`}{' '}
-        <span className='mx-1 animate-pulse'>
-          <i className='fas fa-heart' />
-        </span>{' '}
-        <a href={siteConfig('LINK')} className='underline font-bold '>
-          {siteConfig('AUTHOR')}
-        </a>
-        .<br />
+        © {siteConfig('TITLE')} {copyrightDate}
+        <br />
         {siteConfig('BEI_AN') && (
           <>
             <i className='fas fa-shield-alt' />{' '}
@@ -41,7 +35,7 @@ const Footer = ({ title }) => {
         </span>
         <br />
         <h1>{title}</h1>
-        <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>
+        {/* <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>
           Powered by{' '}
           <a
             href='https://github.com/tangly1024/NotionNext'
@@ -49,7 +43,7 @@ const Footer = ({ title }) => {
             NotionNext {siteConfig('VERSION')}
           </a>
           .
-        </span>
+        </span> */}
       </span>
     </footer>
   )

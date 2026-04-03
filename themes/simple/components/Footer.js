@@ -20,8 +20,7 @@ export default function Footer(props) {
 
       <div className='text-yellow-300 container mx-auto max-w-4xl py-6 md:flex flex-wrap md:flex-no-wrap md:justify-between items-center text-sm'>
         <div className='text-center'>
-          &copy;{`${copyrightDate}`} {siteConfig('AUTHOR')}. All rights
-          reserved.
+          © {siteConfig('TITLE')} {copyrightDate}
         </div>
         <div className='md:p-0 text-center md:text-right text-xs'>
           {/* 右侧链接 */}
@@ -34,14 +33,14 @@ export default function Footer(props) {
             </a>
           )}
           <BeiAnGongAn />
-          <span className='no-underline ml-4'>
+          {/* <span className='no-underline ml-4'>
             Powered by
             <a
               href='https://github.com/tangly1024/NotionNext'
               className=' hover:underline'>
               NotionNext {siteConfig('VERSION')}
             </a>
-          </span>
+          </span> */}
         </div>
       </div>
     </footer>

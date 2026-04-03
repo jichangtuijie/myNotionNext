@@ -11,14 +11,8 @@ function SiteInfo({ title }) {
   return (
     <footer className='relative leading-6 justify-start w-full text-gray-600 dark:text-gray-300 text-xs '>
       <span>
-        © {`${copyrightDate}`}
-        <span>
-          <a href={siteConfig('LINK')}>
-            <i className='mx-1 animate-pulse fas fa-heart' />
-            {siteConfig('AUTHOR')}
-          </a>
-          . <br />
-        </span>
+        © {siteConfig('TITLE')} {copyrightDate}
+        <br />
         {siteConfig('BEI_AN') && (
           <>
             <i className='fas fa-shield-alt' />
@@ -38,14 +32,14 @@ function SiteInfo({ title }) {
           <span className='px-1 busuanzi_value_site_uv'> </span>
         </span>
         <br />
-        <span className='text-xs font-serif'>
+        {/* <span className='text-xs font-serif'>
           Powered by
           <a
             href='https://github.com/tangly1024/NotionNext'
             className='underline'>
             NotionNext {siteConfig('VERSION')}
           </a>
-        </span>
+        </span> */}
         <br />
       </span>
       <h1>{title}</h1>
