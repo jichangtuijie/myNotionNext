@@ -1,1 +1,278 @@
-LyoqCiAqIOWPpuS4gOS4quiQveWcsOmhteS4u+mimAogKi8KY29uc3QgQ09ORklHID0gewogIFBST1hJT19XRUxDT01FX0NPVkVSX0VOQUJMRTogdHJ1ZSwgLy/mmK/lkKbmmL7npLrpobXpnaLov5vlhaXnmoTmrKLov47mloflrZcKICBQUk9YSU9fV0VMQ09NRV9URVhUOiAn5qyi6L+O5p2l5YiwZmFpeueahOaVsOWtl+epuumXtO+8jOeCueWHu+S7u+aEj+S9jee9rui/m+WFpScsIC8vIOasoui/juaWh+Wtl++8jOeVmeepuuWImeS4jeWQr+eUqAoKICAvLyDoi7Hpm4TljLrlnZflr7zoiKoKICBQUk9YSU9fSEVST19FTkFCTEU6IHRydWUsIC8vIOW8gOWQr+iLsembhOWMugogIFBST1hJT19IRVJPX1RJVExFXzE6ICfkuI3pnaDmhI/lv5flipvvvIzpnaDmnrbmnoTjgIInLCAvLyDoi7Hpm4TljLrmloflrZcKICBQUk9YSU9fSEVST19USVRMRV8yOiAnQUnml7bku6PotoXnuqfkuKrkvZMgwrcg54us56uL5Yib5L2c6ICFIMK3IOefpeihjOWQiOS4gOezu+e7n+iuvuiuoeiAhScsIC8vIOiLsembhOWMuuaWh+WtlwogIC8vIOiLsembhOWMuuS4pOS4quaMiemSru+8jOWmguaenFRFWFTnlZnnqbrliJnpmpDol4/mjInpkq4KICBQUk9YSU9fSEVST19CVVRUT05fMV9URVhUOiAn5LqG6Kej5pu05aSaJywgLy8g6Iux6ZuE5Yy65oyJ6ZKuCiAgUFJPWElPX0hFUk9fQlVUVE9OXzFfVVJMOiAnaHR0cHM6Ly93d3cuZmFpei13b3JsZC5jb20vYmxvZycsIC8vIOiLsembhOWMuuaMiemSrgogIFBST1hJT19IRVJPX0JVVFRPTl8yX1RFWFQ6ICfogZTns7vkvZzogIUnLCAvLyDoi7Hpm4TljLrmjInpkq4KICBQUk9YSU9fSEVST19CVVRUT05fMl9VUkw6ICcvYWJvdXQnLCAvLyDoi7Hpm4TljLrmjInpkq4KICAvLyBQUk9YSU9fSEVST19CVVRUT05fMl9JQ09OOiAnL2ltYWdlcy9zdGFydGVyL2dpdGh1Yi1tYXJrLnN2ZycsICAvLyBHaXRIdWLlm77moIflt7LpmpDol48KICBQUk9YSU9fSEVST19CVVRUT05fMl9JQ09OOiAnJywKCiAgLy8g6Iux6ZuE5Yy66YWN5Zu+77yM5aaC6ZyA6ZqQ6JeP77yM5pS55Li656m65YC85Y2z5Y+vICcnCiAgUFJPWElPX0hFUk9fQkFOTkVSX0lNQUdFOiAnJywgLy8gaGVyb+WMuuiDjOaZr++8jOm7mOiupOaYr+iOt+WPlk5vdGlvbuiDjOaZr++8jOWmgumcgOWPpuWklumFjee9ruWbvueJh+WPr+S7peWhq+WGmeWcqOi/memHjAogIFBST1hJT19IRVJPX0JBTk5FUl9JRlJBTUVfVVJMOiAnJywgLy8gaGVyb+iDjOaZr+WMuuWGheW1jOiDjOaZr+e9kemhtSDvvIzlj6/ku6XphY3nva7kuIDkuKrnvZHpobXlnLDlnYDvvIzkvovlpoLliqjnlLvnvZHpobVodHRwczovL215LnNwbGluZS5kZXNpZ24vdW50aXRsZWQtYjBjNmU4ODYyMjc2NDZjMzRhZmM4MmNkYzZkZTRjYTIvCgogIC8vIOaWh+eroOWMuuWdlwogIFBST1hJT19CTE9HX0VOQUJMRTogdHJ1ZSwgLy8g6aaW6aG15Y2a5paH5Yy65Z2X5byA5YWzCiAgUFJPWElPX0JMT0dfVElUTEU6ICfmnIDmlrDmlofnq6AnLAogIFBST1hJT19CTE9HX0NPVU5UOiA0LCAvLyDpppbpobXljZrmlofljLrlnZflsZXnpLrliY0056+H5paH56ugCiAgUFJPWElPX0JMT0dfVEVYVF8xOiAnQUnml7bku6PnmoTmiJDplb/mgJ3ogIPkuI7nn6XooYzlkIjkuIDnmoTlrp7ot7XorrDlvZUnLAoKICAvLyDljLrlnZfpu5jorqTlhoXlrrnmmL7npLrmlofnq6DnmoRzdW1tYXJ55paH5pys77yM5L2G5Lmf5pSv5oyB55So6Ieq5a6a5LmJ5Zu+54mH5oiWbG9nb+W+t+Wbveabv+aNouaOieWNoOS9jeaYvuekuuWGheWuuQogIFBST1hJT19CTE9HX1BMQUNFSE9MREVSX0lNR19VUkxfMTogJycsIC8vIOWhq+WGmeimgeabv+aNouaIkOeahOWbvueJh++8jOaUr+aMgeWbvuW6iuaIluebtOaOpeS4iuS8oOWIsOmhueebruS4re+8jOekuuS+iyAgL2ltYWdlcy9mZWF0dXJlLTEud2VicAogIFBST1hJT19CTE9HX1BMQUNFSE9MREVSX0lNR19VUkxfMjogJycsCiAgUFJPWElPX0JMT0dfUExBQ0VIT0xERVJfSU1HX1VSTF8zOiAnJywKICBQUk9YSU9fQkxPR19QTEFDRUhPTERFUl9JTUdfVVJMXzQ6ICcnLAoKICBQUk9YSU9fQU5OT1VOQ0VNRU5UX0VOQUJMRTogdHJ1ZSwgLy/lhazlkYrmloflrZfljLrlnZcKCiAgLy8g54m55oCn5Yy65Z2XCiAgUFJPWElPX0ZFQVRVUkVfRU5BQkxFOiB0cnVlLCAvLyDnibnmgKfljLrlnZflvIDlhbMKICBQUk9YSU9fRkVBVFVSRV9USVRMRTogJ+WFs+S6juaIkScsCiAgUFJPWElPX0ZFQVRVUkVfVEVYVF8xOiAnQUnml7bku6PnmoTotoXnuqfkuKrkvZPvvIzmjqLntKLogIUnLAogIFBST1hJT19GRUFUVVJFX1RFWFRfMjogJ+S7juezu+e7n+iuvuiuoeWIsOWGheWuueWIm+S9nO+8jOeUqOefpeihjOWQiOS4gOeahOmAu+i+kea0u+WHuuecn+WunueahOWPmOWMlicsCgogIC8vIOeJueaApzEKICBQUk9YSU9fRkVBVFVSRV8xX0lDT05fQ0xBU1M6ICdmYS1zb2xpZCBmYS1zdG9wd2F0Y2gnLCAvLyBmYXPlm77moIcKICBQUk9YSU9fRkVBVFVSRV8xX0lDT05fSU1HX1VSTDogJycsIC8vIOWbvueJh+Wbvuagh+mAieWhq++8jOm7mOiupOaYr2Zhc+Wbvuagh++8jOWmguaenOmcgOimgeWbvueJh+Wbvuagh+WPr+S7peWhq+WGmeWbvueJh+WcsOWdgO+8jOekuuS+iy9hdmF0YXIucG5nCiAgUFJPWElPX0ZFQVRVUkVfMV9USVRMRV8xOiAn5Liq5Lq65pON5L2c57O757ufJywKICBQUk9YSU9fRkVBVFVSRV8xX1RFWFRfMToKICAgICfnsr7nroDnmoTorr7orqHmtYHnqIvnoa7kv53lv6vpgJ/kuqTku5jvvIzlnKjntKfov6vnmoTlt6XmnJ/kuIvku43og73kv53or4Hlk4HotKjkuI7nu4boioLkuI3miZPmipjmiaPjgIInLAoKICBQUk9YSU9fRkVBVFVSRV8yX0lDT05fQ0xBU1M6ICdmYS1zb2xpZCBmYS1jb21tZW50cycsCiAgUFJPWElPX0ZFQVRVUkVfMl9JQ09OX0lNR19VUkw6ICcnLAogIFBST1hJT19GRUFUVVJFXzJfVElUTEVfMTogJ0FJ5Y2P5L2c5a6e6Le1JywKICBQUk9YSU9fRkVBVFVSRV8yX1RFWFRfMTogJ+eUqEFJ5omp5bGV6K6k55+l6L6555WM77yM55So57O757uf56Gu5L+d5omn6KGM6JC95Zyw44CC55+l6KGM5ZCI5LiA5pys6Lqr5bCx5pivQUnljY/kvZznmoTkuqfnianjgIInLAoKICBQUk9YSU9fRkVBVFVSRV8zX0lDT05fQ0xBU1M6ICdmYS1zb2xpZCBmYS1zZWFyY2gnLAogIFBST1hJT19GRUFUVVJFXzNfSUNPTl9JTUdfVVJMOiAnJywKICBQUk9YSU9fRkVBVFVSRV8zX1RJVExFXzE6ICfni6znq4vliJvkvZzogIUnLAogIFBST1hJT19GRUFUVVJFXzNfVEVYVF8xOgogICAgJ+eyvuebiuaxgueyvumbleeQouavj+S4quWFg+e0oO+8jOehruS/neaIkOWTgeeyvuiHtOe7n+S4gO+8jOS7pOS6uui/h+ebrumavuW/mCcsCgogIFBST1hJT19GRUFUVVJFX0JVVFRPTl9URVhUOiAn6ZiF6K+75paH56ugJywgLy8g5oyJ6ZKu5paH5a2XCiAgUFJPWElPX0ZFQVRVUkVfQlVUVE9OX1VSTDogJ2h0dHBzOi8vd3d3LmZhaXotd29ybGQuY29tL2Jsb2cnLCAvLyDmjInpkq7ot7PovawKCiAgLy8g6aaW6aG155Sf5rav5Yy65Z2XCiAgUFJPWElPX0NBUkVFUl9FTkFCTEU6IHRydWUsIC8vIOWMuuWdl+W8gOWFswogIFBST1hJT19DQVJFRVJfVElUTEU6ICflhbPkuo4nLAogIFBST1hJT19DQVJFRVJfVEVYVDogJ+aIkeato+WcqOWBmueahOS6iycsCgogIC8vIOeUn+a2r+WGheWuueWNoeeJjCDvvIx0aXRsZeaYr+agh+mimCDvvIxiaW/mmK/lpIfms6jvvIx0ZXh05piv6K+m5oOFCiAgUFJPWElPX0NBUkVFUlM6IFsKICAgIHsKICAgICAgdGl0bGU6ICfni6znq4vliJvkvZzogIUnLAogICAgICBiaW86ICfov5vooYzkuK0nLAogICAgICB0ZXh0OiAn5q2j5Zyo5oqK44CM55+l6KGM5ZCI5LiA44CN57O757uf5ZWG5Lia5YyW77yM55uu5qCH5piv5oiQ5Yqf5ZSu5Ye656ys5LiA5Liq44CC5Zu057uV6L+Z5p2h5Li757q/5ZCM5pe25o6o6L+b77ya5qih5p2/5omT56Oo44CB5YaF5a656JCl6ZSA44CB5ZOB54mM5a6a5L2N44CB5Liq5Lq6572R56uZ5pCt5bu644CCJwogICAgfSwKICAgIHsKICAgICAgdGl0bGU6ICfkuKrkurrmk43kvZzns7vnu5/mjqLntKLogIUnLAogICAgICBiaW86ICcyMDIy6Iez5LuKJywKICAgICAgdGV4dDogJ+a3seW6pk5vdGlvbueUqOaIt++8jOiKsei2hei/h+S4pOW5tOaXtumXtOaJk+ejqOefpeihjOWQiOS4gOezu+e7n+OAguS7juesrOS4gOaAp+WOn+eQhuWHuuWPke+8jOWujOWFqOiHquS4u+iuvuiuoeW5tumVv+acn+S9v+eUqOKAlOKAlOS4jeaYr+aVmeeoi+mHjOaKhOeahO+8jOaYr+WPjeWkjei/reS7o+WHuuadpeeahOOAgicKICAgIH0sCiAgICB7CiAgICAgIHRpdGxlOiAnQUnljY/kvZzlrp7ot7XogIUnLAogICAgICBiaW86ICcyMDI06Iez5LuKJywKICAgICAgdGV4dDogJ+eUqEFJ6amx5Yqo5o+Q56S66K+N6YCG5ZCR5bel56iL44CB5YaF5a6555Sf5oiQ44CB5biC5Zy66LCD56CU44CC55SoQUnmianlsZXorqTnn6XovrnnlYzvvIznlKjns7vnu5/noa7kv53miafooYzokL3lnLDjgILnn6XooYzlkIjkuIDns7vnu5/mnKzouqvlsLHmmK9BSeWNj+S9nOeahOS6p+eJqeOAgicKICAgIH0KICBdLAoKICAvLyDpppbpobXnlKjmiLfmtYvor4TljLrlnZcKICBQUk9YSU9fVEVTVElNT05JQUxTX0VOQUJMRTogZmFsc2UsIC8vIOa1i+ivhOWMuuWdl+W8gOWFswogIFBST1hJT19URVNUSU1PTklBTFNfVElUTEU6ICfnlKjmiLflj43ppognLAogIFBST1hJT19URVNUSU1PTklBTFNfVEVYVF8xOiAn5oiR5Lus55qE55So5oi35oCO5LmI6K+0JywKICBQUk9YSU9fVEVTVElNT05JQUxTX1RFWFRfMjoKICAgICfmlbDljYPkvY3nq5nplb/pgInmi6nnlKhOb3Rpb25OZXh05pCt5bu65LuW5Lus55qE572R56uZLOmAmui/h+W4ruWKqeaJi+WGjOOAgeS6pOa1geekvue+pOS7peWPiuaKgOacr+WSqOivou+8jOWkp+WutuaIkOWKn+S4iue6v+S6huiHquW3seeahOe9keermScsCgogIC8vIOeUqOaIt+a1i+ivhOWkhOeahOi3s+i9rOaMiemSrgogIFBST1hJT19URVNUSU1PTklBTFNfQlVUVE9OX1VSTDogJy9hYm91dCcsCiAgUFJPWElPX1RFU1RJTU9OSUFMU19CVVRUT05fVEVYVDogJ+iBlOezu+aIkScsCgogIC8vIOi/memHjOS4jeaUr+aMgUNPTkZJR+WSjOeOr+Wig+WPmOmHj++8jOmcgOimgeS4gOS4gOS/ruaUueatpOWkhOS7o+eggeOAggogIFBST1hJT19URVNUSU1PTklBTFNfSVRFTVM6IFsKICAgIHsKICAgICAgUFJPWElPX1RFU1RJTU9OSUFMU19JVEVNX1RFWFQ6CiAgICAgICAgJ+aEn+iwouWkp+S9rOeahOaWueazleOAguS5i+WJjeWwneivlei/h1N1cGVy44CBUG90aW9u562J5Zu95aSW55qE56ys5LiJ5pa55bmz5Y+w77yM5a6e546w5pWI5p6c5LiA6Iis77yM5Liq5oCn5YyW56iL5bqm6L+c5LiN5aaC6L+Z5Liq5pa55rOV77yM5bey57uP55So6LW35p2l5LqG77yBICcsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9BVkFUQVI6CiAgICAgICAgJ2h0dHBzOi8vd3d3Lm5vdGlvbi5zby9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJTJGc2VjdXJlLm5vdGlvbi1zdGF0aWMuY29tJTJGMjJkZTNmY2ItZDkwZC00MjcxLWJjMDEtZjgxNWY0NzYxMjJiJTJGNEZFMEEwQzAtRTQ4Ny00Qzc0LUJGOEUtNkYwMUEyNzQ2MUI4LTE0MTg2LTAwMDAwODA5NEJDMjg5QTYuanBnP3RhYmxlPWNvbGxlY3Rpb24maWQ9YTMyMGEyY2MtNmViZS00YThkLTk1Y2MtZWE5NGU2M2JjZWQ5JndpZHRoPTIwMCcsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9OSUNLTkFNRTogJ1J5YW5fRycsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9ERVNDUklQVElPTjogJ1J5YW5gTG9nIOermemVvycsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9VUkw6ICdodHRwczovL2Jsb2cuZ2FvcmFuLnh5ei8nCiAgICB9LAogICAgewogICAgICBQUk9YSU9fVEVTVElNT05JQUxTX0lURU1fVEVYVDoKICAgICAgICAn5b6I5Zac5qyi6L+Z5Liq5Li76aKY77yM5pys5Luj56CB5bCP55m955So5LiJ5aSp5Y+w6aOO5YGH5pyf5pCt5bu65Ye65p2l5LqG77yM6L+Y5qC55o2u5aSn5L2s55qE5pWZ56iL5byE5LqG6Ieq5a6a5LmJ5Z+f5ZCN77yM5Y2B5YiG5oSf6LCi77yM5bey6K+35Zad5ZKW5ZWhficsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9BVkFUQVI6CiAgICAgICAgJ2h0dHBzOi8vd3d3Lm5vdGlvbi5zby9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJTJGc2VjdXJlLm5vdGlvbi1zdGF0aWMuY29tJTJGMGQzM2QxNjktZjkzMi00MWZmLWFjNmItODhhOTIzYzA4ZTAyJTJGJTI1RTUlMjVBNCUyNUI0JTI1RTUlMjU4MyUyNThGLmpmaWY/dGFibGU9Y29sbGVjdGlvbiZpZD03Nzg3NjU4ZC1kNWMwLTRmMzQtOGUzMi02MGM1MjNkZmFiYTMmd2lkdGg9NDAwJywKICAgICAgUFJPWElPX1RFU1RJTU9OSUFMU19JVEVNX05JQ0tOQU1FOiAnQXNlbmtpdHMnLAogICAgICBQUk9YSU9fVEVTVElNT05JQUxTX0lURU1fREVTQ1JJUFRJT046ICfpmL/mo67nmoTnmb7lrp3ooosg56uZ6ZW/JywKICAgICAgUFJPWElPX1RFU1RJTU9OSUFMU19JVEVNX1VSTDogJ2h0dHBzOi8vYXNlbmtpdHMudG9wLycKICAgIH0sCiAgICB7CiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9URVhUOgogICAgICAgICflkZzlkZzlkZzvvIznu4/ov4fkuIDkuKrkuIvljYjnmoTliqrlipvvvIznu4jkuo7miorljZrlrqLpg6jnvbLlpb3llabvvIzpnZ7luLjmhJ/osKJUYW5nbHkxMDI05aSn5L2s55qE5qGG5p625ZKM5pWZ56iL77yM6L+Z5piv5oiR5pyJ55Sf5LmL5bm055So6L+H55qE5pyA5aW955So55qE5Y2a5a6i5qGG5p624pSt4pSu77mP4pSt4pSu44CC5LuO5LuK5LmL5ZCO77yM5oiR5bCx5Y+v5Lul5Zyo6Ieq5bex55qE5Y2a5a6i6YeMYmLllabvvIwoIOKAosyAIM+JIOKAosyBICl5ICcsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9BVkFUQVI6ICcvYXZhdGFyLnBuZycsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9OSUNLTkFNRTogJ0RXSU5EJywKICAgICAgUFJPWElPX1RFU1RJTU9OSUFMU19JVEVNX0RFU0NSSVBUSU9OOiAn5LiU5ZCs6aOO5ZCfIOermemVvycsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9VUkw6ICdodHRwczovL3d3dy5kd2luZC50b3AvJwogICAgfSwKICAgIHsKICAgICAgUFJPWElPX1RFU1RJTU9OSUFMU19JVEVNX1RFWFQ6CiAgICAgICAgJ+aEn+iwouaPkOS+m+i/meS5iOWlveeahOmhueebruWTiOWTiCDkuYvliY3kuIDnm7TkuI3nn6XpgZPmgI7kuYjpg6jnvbIo5Yir55qE6aG555uu5aW96Zq+5aW95aSN5p2CKei/meS4quebuOWvuemdnuW4uOeugOWNlSDmlrDmiYvpnZ7luLjlj4vlpb3lk6YnLAogICAgICBQUk9YSU9fVEVTVElNT05JQUxTX0lURU1fQVZBVEFSOgogICAgICAgICdodHRwczovL3d3dy5ub3Rpb24uc28vaW1hZ2UvaHR0cHMlM0ElMkYlMkZzMy11cy13ZXN0LTIuYW1hem9uYXdzLmNvbSUyRnNlY3VyZS5ub3Rpb24tc3RhdGljLmNvbSUyRmQ1MmY2NzY2LTNlMzItNGMzZC04NTI5LTQ2ZTFmMjE0MzYwZiUyRmZhdmljb24uc3ZnP3RhYmxlPWNvbGxlY3Rpb24maWQ9N2Q3NmFhZDUtYTJjNC00ZDlhLTg4N2MtYzc5MTNmYWU0ZWVkJndpZHRoPTQwMCcsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9OSUNLTkFNRTogJ+i/quWNh2Rpc2hlbmcgJywKICAgICAgUFJPWElPX1RFU1RJTU9OSUFMU19JVEVNX0RFU0NSSVBUSU9OOiAnQUnotYTmupDliIbkuqsgQmxvZycsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9VUkw6ICdodHRwczovL2Jsb2cuZGlzaGVuZy5vcmcvJwogICAgfSwKICAgIHsKICAgICAgUFJPWElPX1RFU1RJTU9OSUFMU19JVEVNX1RFWFQ6CiAgICAgICAgJ+eBsOW4uOaEn+iwouWkp+S9rOeahOWNmuWuoumhueebru+8jOiDveWwhuWNmuWuouWSjG5vdGlvbue7k+WQiOi1t+adpe+8jOi/meS4gOebtOaYr+aIkeaMuuacn+W+heeahOWNmuWuouaooeW8j+OAgicsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9BVkFUQVI6ICcvYXZhdGFyLnBuZycsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9OSUNLTkFNRTogJ0FuSmhvbicsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9ERVNDUklQVElPTjogJ0FuamhvbmBzIEJsb2cg56uZ6ZW/JywKICAgICAgUFJPWElPX1RFU1RJTU9OSUFMU19JVEVNX1VSTDogJ2h0dHBzOi8vd3d3LmFuamhvbi50b3AnCiAgICB9LAogICAgewogICAgICBQUk9YSU9fVEVTVElNT05JQUxTX0lURU1fVEVYVDogJ+eUqOWlveS5heS6hu+8jOWkquaEn+iwouS6hicsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9BVkFUQVI6ICcvYXZhdGFyLnBuZycsCiAgICAgIFBST1hJT19URVNUSU1PTklBTFNfSVRFTV9OSUNLTkFNRTogJ0xVQ0VOJywKICAgICAgUFJPWElPX1RFU1RJTU9OSUFMU19JVEVNX0RFU0NSSVBUSU9OOiAnTFVDRU7ogIPpqozovoXlr7wg56uZ6ZW/JywKICAgICAgUFJPWElPX1RFU1RJTU9OSUFMU19JVEVNX1VSTDogJ2h0dHBzOi8vd3d3Lmx1Y2VuY3p6LnRvcC8nCiAgICB9CiAgXSwKCiAgLy8gICBGQVEg5bi46KeB6Zeu6aKY5qih5Z2XCiAgUFJPWElPX0ZBUV9FTkFCTEU6IGZhbHNlLCAvLyDluLjop4Hpl67popjmqKHlnZflvIDlhbMKICBQUk9YSU9fRkFRX1RJVExFOiAn5bi46KeB6Zeu6aKY6Kej562UJywKICBQUk9YSU9fRkFRX1RFWFRfMTogJ+acieS7u+S9lemXrumimOWQl++8n+ivt+eci+i/memHjCcsCiAgUFJPWElPX0ZBUV9URVhUXzI6ICfmiJHku6zmlLbpm4bkuobluLjop4HnmoTnlKjmiLfnlpHpl64nLAogIFBST1hJT19GQVFTOiBbCiAgICB7CiAgICAgIHE6ICdOb3Rpb25OZXh05pyJ5biu5Yqp5paH5qGj5ZCX77yfJywKICAgICAgYTogJ+WmguacieeWkemXru+8jOasoui/jumAmui/h+mhtemdouW6lemDqOeahOiBlOezu+WMuuWdl+S4juaIkeWPluW+l+iBlOezu+OAgu+8jOaTjeS9nDxhIGhyZWY9Imh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFmTTR5MUw3UWkvIiBjbGFzc05hbWU9InVuZGVybGluZSI+5ryU56S66KeG6aKRPC9hPu+8jOS7peWPijxhIGhyZWY9Imh0dHBzOi8vZG9jcy50YW5nbHkxMDI0LmNvbS9hcnRpY2xlL2NoYXQtY29tbXVuaXR5IiBjbGFzc05hbWU9InVuZGVybGluZSI+5Lqk5rWB56S+576kPC9hPuadpeWNj+WKqeaCqOWujOaIkOe9keermeeahOaQreW7uumDqOe9sicKICAgIH0sCiAgICB7CiAgICAgIHE6ICfpg6jnvbLlkI7opoHlpoLkvZXnvJblhpnmlofnq6DvvJ8nLAogICAgICBhOiAn5oKo5Y+v5Lul5ZyoTm90aW9u5Lit5LmL6Ze05re75Yqg5oiW5L+u5pS557G75Z6L5Li6UG9zdOeahOmhtemdou+8jOWGheWuueWwhuiiq+WunuaXtuWQjOatpeWcqOermeeCueS4re+8jOivpuaDheWPguiAgzxhIGNsYXNzTmFtZT0idW5kZXJsaW5lIiBocmVmPSJodHRwczovL2RvY3MudGFuZ2x5MTAyNC5jb20vYXJ0aWNsZS9zdGFydC10by13cml0ZSI+44CK5biu5Yqp5paH5qGj44CLPC9hPicKICAgIH0sCiAgICB7CiAgICAgIHE6ICfnq5nngrnpg6jnvbLlpLHotKXvvIzmm7TmlrDlpLHotKXvvJ8nLAogICAgICBhOiAn6YCa5bi45piv6YWN572u5L+u5pS56ZSZ6K+v5a+86Ie077yM6K+35qOA5p+l6YWN572u5oiW6ICF6YeN6K+V5pON5L2c5q2l6aqk77yM5oiW6ICF6YCa6L+HVmVyY2Vs5ZCO5Y+w55qERGVwbG95bWVudHPkuK3mib7liLDplJnor6/ml6Xlv5fvvIzlubblkJHnvZHlj4vmsYLliqknCiAgICB9LAogICAgewogICAgICBxOiAn5paH56ug5rKh5pyJ5a6e5pe25ZCM5q2l77yfJywKICAgICAgYTogJ+WFiOajgOafpU5vdGlvbl9QYWdlX0lE5piv5ZCm5q2j56Gu6YWN572u77yM5YW25qyh55Sx5LqO5Y2a5a6i55qE5q+P5Liq6aG16Z2i6YO95pyJ54us56uL57yT5a2Y77yM5Yi35paw572R6aG15ZCO5Y2z5Y+v6Kej5YazJwogICAgfQogIF0sCgogIC8vIOWFs+S6juS9nOiAheWMuuWdlwogIFBST1hJT19BQk9VVF9FTkFCTEU6IHRydWUsIC8vIOWFs+S6juS9nOiAheWMuuWdl+WMuuWdl+W8gOWFswogIFBST1hJT19BQk9VVF9USVRMRTogJ+WFs+S6juS9nOiAhScsCiAgUFJPWElPX0FCT1VUX1RFWFRfMTogJ0FJ5pe25Luj55qE6LaF57qn5Liq5L2TJywKICBQUk9YSU9fQUJPVVRfVEVYVF8yOiAn54us56uL5Yib5L2c6ICF77yM5LiN5Zyo5YWs5Y+45L2T57O777yM6Ieq5bex5piv6Ieq5bex55qE6ICB5p2/44CC5q2j5Zyo5oqK44CM55+l6KGM5ZCI5LiA44CN4oCU4oCU5LiA5aWX5LuO56ys5LiA5oCn5Y6f55CG5Ye65Y+R55qE5Liq5Lq65pON5L2c57O757uf4oCU4oCU5omT56Oo5Yiw5Y+v5Lul5Lqk5LuY57uZ5pu05aSa5Lq65L2/55So44CC5qC45b+D5YWz5rOo77yaQUnml7bku6PkuKrkurrlpoLkvZXlu7rnq4vns7vnu5/jgIHmjIHnu63miJDplb/jgIHnnJ/mraPlgZrliLDpgqPkupvkuIDnm7Tnn6XpgZPkvYblgZrkuI3liLDnmoTkuovjgIInLAogIFBST1hJT19BQk9VVF9QSE9UT19VUkw6ICcvYXZhdGFyLnBuZycsCiAgUFJPWElPX0FCT1VUX0tFWV8xOiAnTm90aW9u5L2/55So5bm06ZmQJywKICBQUk9YSU9fQUJPVVRfVkFMXzE6ICcy5bm0KycsCiAgUFJPWElPX0FCT1VUX0tFWV8yOiAn5qC45b+D5qih5Z2XJywKICBQUk9YSU9fQUJPVVRfVkFMXzI6ICc25aSn57O757ufJywKICBQUk9YSU9fQUJPVVRfS0VZXzM6ICfoh6rliqjljJbop4TliJknLAogIFBST1hJT19BQk9VVF9WQUxfMzogJzI55p2hKycsCiAgUFJPWElPX0FCT1VUX0tFWV80OiAn5YWs5byP5pWw6YePJywKICBQUk9YSU9fQUJPVVRfVkFMXzQ6ICc2NeadoSsnLAoKICBQUk9YSU9fQUJPVVRfQlVUVE9OX1VSTDogJy9hYm91dCcsCiAgUFJPWElPX0FCT1VUX0JVVFRPTl9URVhUOiAn5YWz5LqO5oiRJywKCiAgLy8g5qiq5ZCR5rua5Yqo5paH5a2XCiAgUFJPWElPX0JSQU5EU19FTkFCTEU6IHRydWUsIC8vIOa7muWKqOaWh+WtlwogIFBST1hJT19CUkFORFM6IFsKICAgICfnn6XooYzlkIjkuIAnLAogICAgJ0FJ5pe25LujJywKICAgICfotoXnuqfkuKrkvZMnLAogICAgJ+aJp+ihjOaetuaehCcsCiAgICAn5Liq5Lq65pON5L2c57O757ufJwogIF0sCgogIFBST1hJT19GT09URVJfU0xPR0FOOiAn6K6p6YKj5Lqb5LiA55u055+l6YGT5L2G5YGa5LiN5Yiw55qE5LqL77yM5byA5aeL55yf55qE5Y+R55Sf44CCJywKCiAgLy8g6aG16ISa5LiJ5YiX6I+c5Y2V57uECiAgLy8g6aG16ISa6I+c5Y2VCiAgUFJPWElPX0ZPT1RFUl9MSU5LUzogWwogICAgewogICAgICBuYW1lOiAn55u45YWz5YaF5a65JywKICAgICAgbWVudXM6IFsKICAgICAgICB7CiAgICAgICAgICB0aXRsZTogJ+efpeihjOWQiOS4gOW4ruWKqeS4reW/gycsCiAgICAgICAgICBocmVmOiAnaHR0cHM6Ly93d3cuZmFpei13b3JsZC5jb20nCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICB0aXRsZTogJ0FJ5pe25Luj5oiQ6ZW/5Y2a5a6iJywKICAgICAgICAgIGhyZWY6ICdodHRwczovL3d3dy5mYWl6LXdvcmxkLmNvbS9ibG9nJwogICAgICAgIH0KICAgICAgXQogICAgfSwKICAgIHsKICAgICAgbmFtZTogJ+WFs+S6jicsCiAgICAgIG1lbnVzOiBbCiAgICAgICAgeyB0aXRsZTogJ+WFs+S6juaIkScsIGhyZWY6ICdodHRwczovL3d3dy5mYWl6LXdvcmxkLmNvbS9hYm91dCcgfSwKICAgICAgICAvLyB7IHRpdGxlOiAnR2l0SHViJywgaHJlZjogJ2h0dHBzOi8vZ2l0aHViLmNvbS9qaWNoYW5ndHVpamllJyB9LCAgLy8gR2l0SHVi6ZO+5o6l5bey6ZqQ6JePCiAgICAgICAgeyB0aXRsZTogJ+WNmuWuoicsIGhyZWY6ICdodHRwczovL3d3dy5mYWl6LXdvcmxkLmNvbS9ibG9nJyB9LAogICAgICAgIHsKICAgICAgICAgIHRpdGxlOiAn6IGU57O75oiRJywKICAgICAgICAgIGhyZWY6ICdodHRwczovL3d3dy5mYWl6LXdvcmxkLmNvbS8jY29udGFjdCcKICAgICAgICB9CiAgICAgIF0KICAgIH0KICBdLAoKICBQUk9YSU9fRk9PVEVSX0JMT0dfTEFURVNUX1RJVExFOiAn5pyA5paw5paH56ugJywKCiAgUFJPWElPX0ZPT1RFUl9QUklWQUNZX1BPTElDWV9URVhUOiAn6ZqQ56eB5pS/562WJywKICBQUk9YSU9fRk9PVEVSX1BSSVZBQ1lfUE9MSUNZX1VSTDogJy9wcml2YWN5LXBvbGljeScsCgogIFBST1hJT19GT09URVJfUFJJVkFDWV9MRUdBTF9OT1RJQ0VfVEVYVDogJ+azleW+i+WjsOaYjicsCiAgUFJPWElPX0ZPT1RFUl9QUklWQUNZX0xFR0FMX05PVElDRV9VUkw6ICcvbGVnYWN5LW5vdGljZScsCgogIFBST1hJT19GT09URVJfUFJJVkFDWV9URVJNU19PRl9TRVJWSUNFX1RFWFQ6ICfmnI3liqHljY/orq4nLAogIFBST1hJT19GT09URVJfUFJJVkFDWV9URVJNU19PRl9TRVJWSUNFX1VSTDogJy90ZXJtcy1vZi11c2UnLAoKICAvLyA0MDTpobXpnaLnmoTmj5DnpLror60KICBQUk9YSU9fNDA0X1RJVExFOiAn5oiR5Lus5Ly85LmO5om+5LiN5Yiw5oKo6KaB5om+55qE6aG16Z2i44CCJywKICBQUk9YSU9fNDA0X1RFWFQ6ICfmirHmrYnvvIHmgqjopoHmn6Xmib7nmoTpobXpnaLkuI3lrZjlnKjjgILlj6/og73lt7Lnu4/np7vliqjmiJbliKDpmaTjgIInLAogIFBST1hJT180MDRfQkFDSzogJ+WbnuWIsOS4u+mhtScsCgogIC8vIOmhtemdouW6lemDqOeahOihjOWKqOWRvOWQgeaooeWdlwogIFBST1hJT19DVEFfRU5BQkxFOiB0cnVlLAogIFBST1hJT19DVEFfVElUTEU6ICflu7rnq4vov57mjqUnLAogIFBST1hJT19DVEFfVElUTEVfMjogJ+S4gOi1t+aOoue0okFJ5pe25Luj55qE5oiQ6ZW/6Lev5b6EJywKICBQUk9YSU9fQ1RBX0RFU0NSSVBUSU9OOiAn5peg6K665L2g5oOz5LqG6Kej55+l6KGM5ZCI5LiA57O757uf77yM6L+Y5piv5oOz6IGK6IGKQUnml7bku6PnmoTkuKrkurrmiJDplb/ot6/lvoTvvIzpg73lj6/ku6XogZTns7vmiJHjgIInLAogIFBST1hJT19DVEFfQlVUVE9OOiB0cnVlLCAvLyDmmK/lkKbmmL7npLrmjInpkq4KICBQUk9YSU9fQ1RBX0JVVFRPTl9VUkw6ICcvYWJvdXQnLAogIFBST1hJT19DVEFfQlVUVE9OX1RFWFQ6ICfogZTns7vmiJEnLAoKICBQUk9YSU9fUE9TVF9SRURJUkVDVF9FTkFCTEU6IGZhbHNlLCAvLyDpu5joqo3plovllZ/ph43lrprlkJEKICBQUk9YSU9fUE9TVF9SRURJUkVDVF9VUkw6ICdodHRwczovL3d3dy5mYWl6LXdvcmxkLmNvbScsIC8vIOmHjeWumuWQkeWfn+WQjQogIFBST1hJT19ORVdTTEVUVEVSOiBwcm9jZXNzLmVudi5ORVhUX1BVQkxJQ19USEVNRV9QUk9YSU9fTkVXU0xFVFRFUiB8fCBmYWxzZSAvLyDmmK/lkKblvIDlkK/pgq7ku7borqLpmIUg6K+35YWI6YWN572ubWFpbGNoaW1w5Yqf6IO9IGh0dHBzOi8vZG9jcy50YW5nbHkxMDI0LmNvbS9hcnRpY2xlL25vdGlvbi1uZXh0LW1haWxjaGltcAp9CmV4cG9ydCBkZWZhdWx0IENPTkZJRwo=
+/**
+ * 另一个落地页主题
+ */
+const CONFIG = {
+  PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
+  PROXIO_WELCOME_TEXT: '欢迎来到此网站，点击任意位置进入', // 欢迎文字，留空则不启用
+
+  // 英雄区块导航
+  PROXIO_HERO_ENABLE: true, // 开启英雄区
+  PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
+  PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+  // 英雄区两个按钮，如果TEXT留空则隐藏按钮
+  PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
+  PROXIO_HERO_BUTTON_1_URL:
+    'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
+  PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
+  PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
+  PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github-mark.svg', // 英雄区按钮2的图标，不需要则留空
+
+  // 英雄区配图，如需隐藏，改为空值即可 ''
+  PROXIO_HERO_BANNER_IMAGE: '', // hero区背景，默认是获取Notion背景，如需另外配置图片可以填写在这里
+  PROXIO_HERO_BANNER_IFRAME_URL: '', // hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
+
+  // 文章区块
+  PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
+  PROXIO_BLOG_TITLE: '作品',
+  PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
+  PROXIO_BLOG_TEXT_1: '我的最新动态',
+
+  // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_2: '',
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: '',
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: '',
+
+  PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
+
+  // 特性区块
+  PROXIO_FEATURE_ENABLE: true, // 特性区块开关
+  PROXIO_FEATURE_TITLE: '为什么选我',
+  PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
+  PROXIO_FEATURE_TEXT_2: '丰富的案例经验，专业的技术服务，优质的沟通效率',
+
+  // 特性1
+  PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', // fas图标
+  PROXIO_FEATURE_1_ICON_IMG_URL: '', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
+  PROXIO_FEATURE_1_TITLE_1: '高效工作流程',
+  PROXIO_FEATURE_1_TEXT_1:
+    '精简的设计流程确保快速交付，在紧迫的工期下仍能保证品质与细节不打折扣。',
+
+  PROXIO_FEATURE_2_ICON_CLASS: 'fa-solid fa-comments',
+  PROXIO_FEATURE_2_ICON_IMG_URL: '',
+  PROXIO_FEATURE_2_TITLE_1: '协作式流程',
+  PROXIO_FEATURE_2_TEXT_1: '与你紧密合作，融合反馈意见，打造超越预期的设计',
+
+  PROXIO_FEATURE_3_ICON_CLASS: 'fa-solid fa-search',
+  PROXIO_FEATURE_3_ICON_IMG_URL: '',
+  PROXIO_FEATURE_3_TITLE_1: '细节把控',
+  PROXIO_FEATURE_3_TEXT_1:
+    '精益求精雕琢每个元素，确保成品精致统一，令人过目难忘',
+
+  PROXIO_FEATURE_BUTTON_TEXT: '了解更多', // 按钮文字
+  PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
+
+  // 首页生涯区块
+  PROXIO_CAREER_ENABLE: true, // 区块开关
+  PROXIO_CAREER_TITLE: '生涯',
+  PROXIO_CAREER_TEXT: '以下是我的职业生涯',
+
+  // 生涯内容卡牌 ，title是标题 ，bio是备注，text是详情
+  PROXIO_CAREERS: [
+    {
+      title: 'Freelance Architect',
+      bio: '2016-2020',
+      text: 'As a freelance architect, I worked on a range of residential and commercial projects, balancing form and function. I collaborated with clients and contractors to transform concepts into reality, ensuring each design was both aesthetically pleasing and structurally sound.'
+    },
+    {
+      title: 'Product Designer at Spotify',
+      bio: '2020-2022',
+      text: 'At Spotify, I helped shape innovative features for millions of users globally. My focus was on creating seamless music discovery experiences, enhancing user interfaces, and optimizing cross-platform navigation, which led to an improved product flow and increased user satisfaction.'
+    },
+    {
+      title: 'Freelance Product Designer',
+      bio: '2022-Now',
+      text: 'Now I design user-centric products that align with client visions. As a freelance product designer, I collaborate with startups and established companies, crafting solutions that elevate user experiences and increase engagement across both digital and physical interfaces.'
+    }
+  ],
+
+  // 首页用户测评区块
+  PROXIO_TESTIMONIALS_ENABLE: true, // 测评区块开关
+  PROXIO_TESTIMONIALS_TITLE: '用户反馈',
+  PROXIO_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
+  PROXIO_TESTIMONIALS_TEXT_2:
+    '数千位站长选择用NotionNext搭建他们的网站,通过帮助手册、交流社群以及技术咨询，大家成功上线了自己的网站',
+
+  // 用户测评处的跳转按钮
+  PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
+  PROXIO_TESTIMONIALS_BUTTON_TEXT: '联系我',
+
+  // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
+  PROXIO_TESTIMONIALS_ITEMS: [
+    {
+      PROXIO_TESTIMONIALS_ITEM_TEXT:
+        '感谢大佬的方法。之前尝试过Super、Potion等国外的第三方平台，实现效果一般，个性化程度远不如这个方法，已经用起来了！ ',
+      PROXIO_TESTIMONIALS_ITEM_AVATAR:
+        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Ryan_G',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Ryan`Log 站长',
+      PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.gaoran.xyz/'
+    },
+    {
+      PROXIO_TESTIMONIALS_ITEM_TEXT:
+        '很喜欢这个主题，本代码小白用三天台风假期搭建出来了，还根据大佬的教程弄了自定义域名，十分感谢，已请喝咖啡~',
+      PROXIO_TESTIMONIALS_ITEM_AVATAR:
+        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Asenkits',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '阿森的百宝袋 站长',
+      PROXIO_TESTIMONIALS_ITEM_URL: 'https://asenkits.top/'
+    },
+    {
+      PROXIO_TESTIMONIALS_ITEM_TEXT:
+        '呜呜呜，经过一个下午的努力，终于把博客部署好啦，非常感谢Tangly1024大佬的框架和教程，这是我有生之年用过的最好用的博客框架┭┮﹏┭┮。从今之后，我就可以在自己的博客里bb啦，( •̀ ω •́ )y ',
+      PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'DWIND',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '且听风吟 站长',
+      PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
+    },
+    {
+      PROXIO_TESTIMONIALS_ITEM_TEXT:
+        '感谢提供这么好的项目哈哈 之前一直不知道怎么部署(别的项目好难好复杂)这个相对非常简单 新手非常友好哦',
+      PROXIO_TESTIMONIALS_ITEM_AVATAR:
+        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: '迪升disheng ',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'AI资源分享 Blog',
+      PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
+    },
+    {
+      PROXIO_TESTIMONIALS_ITEM_TEXT:
+        '灰常感谢大佬的博客项目，能将博客和notion结合起来，这一直是我挺期待的博客模式。',
+      PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'AnJhon',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon`s Blog 站长',
+      PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
+    },
+    {
+      PROXIO_TESTIMONIALS_ITEM_TEXT: '用好久了，太感谢了',
+      PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'LUCEN',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'LUCEN考验辅导 站长',
+      PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
+    }
+  ],
+
+  //   FAQ 常见问题模块
+  PROXIO_FAQ_ENABLE: true, // 常见问题模块开关
+  PROXIO_FAQ_TITLE: '常见问题解答',
+  PROXIO_FAQ_TEXT_1: '有任何问题吗？请看这里',
+  PROXIO_FAQ_TEXT_2: '我们收集了常见的用户疑问',
+  PROXIO_FAQS: [
+    {
+      q: 'NotionNext有帮助文档吗？',
+      a: 'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署'
+    },
+    {
+      q: '部署后要如何编写文章？',
+      a: '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>'
+    },
+    {
+      q: '站点部署失败，更新失败？',
+      a: '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助'
+    },
+    {
+      q: '文章没有实时同步？',
+      a: '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决'
+    }
+  ],
+
+  // 关于作者区块
+  PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
+  PROXIO_ABOUT_TITLE: '关于作者',
+  PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
+  PROXIO_ABOUT_TEXT_2:
+    'With a background in architecture, I now apply my expertise to product design, blending aesthetics, functionality, and innovation. My goal is to create modern, user-focused designs that bring your vision to life.',
+  PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
+  PROXIO_ABOUT_KEY_1: '经验年限',
+  PROXIO_ABOUT_VAL_1: '10年+',
+  PROXIO_ABOUT_KEY_2: '客户',
+  PROXIO_ABOUT_VAL_2: '1000+',
+  PROXIO_ABOUT_KEY_3: '交付项目',
+  PROXIO_ABOUT_VAL_3: '5000+',
+  PROXIO_ABOUT_KEY_4: '累积创作时长（小时）',
+  PROXIO_ABOUT_VAL_4: '10000+',
+
+  PROXIO_ABOUT_BUTTON_URL: '/about',
+  PROXIO_ABOUT_BUTTON_TEXT: '关于我',
+
+  // 横向滚动文字
+  PROXIO_BRANDS_ENABLE: true, // 滚动文字
+  PROXIO_BRANDS: [
+    'Web Design',
+    'Logo Design',
+    'Mobile App Design',
+    'Product Design'
+  ],
+
+  PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+
+  // 页脚三列菜单组
+  // 页脚菜单
+  PROXIO_FOOTER_LINKS: [
+    {
+      name: '友情链接',
+      menus: [
+        {
+          title: 'Tangly的学习笔记',
+          href: 'https://blog.tangly1024.com'
+        },
+        {
+          title: 'NotionNext',
+          href: 'https://www.tangly1024.com'
+        }
+      ]
+    },
+    {
+      name: '开发者',
+      menus: [
+        { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
+        {
+          title: '开发帮助',
+          href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
+        },
+        {
+          title: '功能反馈',
+          href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
+        },
+        {
+          title: '技术讨论',
+          href: 'https://github.com/tangly1024/NotionNext/discussions'
+        },
+        {
+          title: '关于作者',
+          href: 'https://blog.tangly1024.com/about'
+        }
+      ]
+    }
+  ],
+
+  PROXIO_FOOTER_BLOG_LATEST_TITLE: '最新文章',
+
+  PROXIO_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
+  PROXIO_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
+
+  PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
+  PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
+
+  PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
+  PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
+
+  // 404页面的提示语
+  PROXIO_404_TITLE: '我们似乎找不到您要找的页面。',
+  PROXIO_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
+  PROXIO_404_BACK: '回到主页',
+
+  // 页面底部的行动呼吁模块
+  PROXIO_CTA_ENABLE: true,
+  PROXIO_CTA_TITLE: '与我建立联系',
+  PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
+  PROXIO_CTA_DESCRIPTION:
+    '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+  PROXIO_CTA_BUTTON: true, // 是否显示按钮
+  PROXIO_CTA_BUTTON_URL: '/about',
+  PROXIO_CTA_BUTTON_TEXT: '联系我',
+
+  PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
+  PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+  PROXIO_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_PROXIO_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
+}
+export default CONFIG
