@@ -1,1 +1,159 @@
-Y29uc3QgQ09ORklHID0gewogIEhFT19IT01FX1BPU1RfVFdPX0NPTFM6IHRydWUsIC8vIOmmlumhteWNmuWuouS4pOWIl+aYvuekuu+8jOiLpeS4umZhbHNl5YiZ5Y+q5pi+56S65LiA5YiXCiAgSEVPX0xPQURJTkdfQ09WRVI6IHRydWUsIC8vIOmhtemdouWKoOi9veeahOmBrue9qeWKqOeUuwoKICBIRU9fSE9NRV9CQU5ORVJfRU5BQkxFOiB0cnVlLAoKICBIRU9fU0lURV9DUkVBVEVfVElNRTogJzIwMjQtMDEtMDEnLCAvLyDlu7rnq5nml6XmnJ/vvIznlKjkuo7orqHnrpfnvZHnq5nov5DooYznmoTnrKzlh6DlpKkKCiAgLy8g6aaW6aG16aG26YOo6YCa55+l5p2h5rua5Yqo5YaF5a6577yM5aaC5LiN6ZyA6KaB5Y+v5Lul55WZ56m6IFtdCiAgSEVPX05PVElDRV9CQVI6IFsKICAgIHsgdGl0bGU6ICfmrKLov47mnaXliLBmYWl655qE5LiW55WMJywgdXJsOiAnaHR0cHM6Ly93d3cuZmFpei13b3JsZC5jb20nIH0sCiAgICB7IHRpdGxlOiAn55+l6KGM5ZCI5LiA5biu5Yqp5Lit5b+DJywgdXJsOiAnaHR0cHM6Ly93d3cuZmFpei13b3JsZC5jb20vYmxvZycgfQogIF0sCgogIC8vIOiLsembhOWMuuW3puWPs+S+p+e7hOS7tumioOWAkuS9jee9rgogIEhFT19IRVJPX1JFVkVSU0U6IGZhbHNlLAogIC8vIOWNmuWuouS4u+S9k+WMuuW3puWPs+S+p+e7hOS7tumioOWAkuS9jee9rgogIEhFT19IRVJPX0JPRFlfUkVWRVJTRTogZmFsc2UsCgogIC8vIOiLsembhOWMuijpppbpobXpobbpg6jlpKfljaEpCiAgSEVPX0hFUk9fVElUTEVfMTogJ0FJ5pe25Luj55qE5oiQ6ZW/JywKICBIRU9fSEVST19USVRMRV8yOiAn5LiO5omn6KGM5p625p6EJywKICBIRU9fSEVST19USVRMRV8zOiAnRkFJWi1XT1JMRC5DT00nLAogIEhFT19IRVJPX1RJVExFXzQ6ICforrDlvZXnnJ/lrp7nmoTmiJDplb8nLAogIEhFT19IRVJPX1RJVExFXzU6ICforqnnn6XooYzlkIjkuIDlvIDlp4vnnJ/nmoTlj5HnlJ8nLAogIEhFT19IRVJPX1RJVExFX0xJTks6ICdodHRwczovL3d3dy5mYWl6LXdvcmxkLmNvbScsCiAgLy8g6Iux6ZuE5Yy66YGu572p5paH5a2XCiAgSEVPX0hFUk9fQ09WRVJfVElUTEU6ICfku47ov5nph4zlvIDlp4snLAoKICAvLyDoi7Hpm4TljLrmmL7npLrkuInkuKrnva7pobbliIbnsbsKICBIRU9fSEVST19DQVRFR09SWV8xOiB7IHRpdGxlOiAn5b+F55yL57K+6YCJJywgdXJsOiAnL3RhZy/lv4XnnIvnsr7pgIknIH0sCiAgSEVPX0hFUk9fQ0FURUdPUllfMjogeyB0aXRsZTogJ+eDremXqOaWh+eroCcsIHVybDogJy90YWcv54Ot6Zeo5paH56ugJyB9LAogIEhFT19IRVJPX0NBVEVHT1JZXzM6IHsgdGl0bGU6ICflrp7nlKjmlZnnqIsnLCB1cmw6ICcvdGFnL+WunueUqOaVmeeoiycgfSwKCiAgLy8g6Iux6ZuE5Yy65Y+z5L6n5o6o6I2Q5paH56ug5qCH562+LCDkvovlpoIgW+aOqOiNkF0gLCDmnIDlpJrlha3nr4fmlofnq6A7IOiLpeeVmeepuueZvScn77yM5YiZ5o6o6I2Q5pyA6L+R5pu05paw5paH56ugCiAgSEVPX0hFUk9fUkVDT01NRU5EX1BPU1RfVEFHOiAn5o6o6I2QJywKICBIRU9fSEVST19SRUNPTU1FTkRfUE9TVF9TT1JUX0JZX1VQREFURV9USU1FOiBmYWxzZSwgLy8g5o6o6I2Q5paH56ug5o6S5bqP77yM5Li6YHRydWVg5pe25bCG5by65Yi25oyJ5pyA5ZCO5L+u5pS55pe26Ze05YCS5bqPCiAgLy8gICBIRVJPX1JFQ09NTUVORF9DT1ZFUjogJ2h0dHBzOi8vY2RuLnBpeGFiYXkuY29tL3Bob3RvLzIwMTUvMTAvMzAvMjAvMTMvc3VucmlzZS0xMDE0NzEyXzEyODAuanBnJywgLy8g6Iux6ZuE5Yy65Y+z5L6n5Zu+54mHCgogIC8vIOWPs+S+p+S4quS6uui1hOaWmeWNoeeJjOasoui/juivre+8jOeCueWHu+WPr+iHquWKqOWIh+aNogogIEhFT19JTkZPQ0FSRF9HUkVFVElOR1M6IFsKICAgICfkvaDlpb3vvIzmiJHmmK9mYWl6JywKICAgICfwn5SNIEFJ5pe25Luj6LaF57qn5Liq5L2TJywKICAgICfwn6SdIOefpeihjOWQiOS4gOezu+e7n+WIm+S9nOiAhScsCiAgICAn8J+PgyDkuI3pnaDmhI/lv5flipvvvIzpnaDmnrbmnoQnLAogICAgJ/Cfj6Ag5pWw5a2X5ri45rCR5o6i57Si6ICFJywKICAgICfwn6SW77iPIEFJ5Y2P5L2c5rex5bqm5a6e6Le16ICFJywKICAgICfwn6exIOeLrOeri+WIm+S9nOiAhScKICBdLAoKICAvLyDkuKrkurrotYTmlpnlupXpg6jmjInpkq4KICBIRU9fSU5GT19DQVJEX1VSTDE6ICcvYWJvdXQnLAogIEhFT19JTkZPX0NBUkRfSUNPTjE6ICdmYXMgZmEtdXNlcicsCiAgLy8gSEVPX0lORk9fQ0FSRF9VUkwyOiAnaHR0cHM6Ly9naXRodWIuY29tL2ppY2hhbmd0dWlqaWUnLCAgLy8gR2l0SHVi6ZO+5o6l5bey6ZqQ6JePCiAgSEVPX0lORk9fQ0FSRF9VUkwyOiAnJywKICAvLyBIRU9fSU5GT19DQVJEX0lDT04yOiAnZmFiIGZhLWdpdGh1YicsICAvLyBHaXRIdWLlm77moIflt7LpmpDol48KICBIRU9fSU5GT19DQVJEX0lDT04yOiAnJywKICBIRU9fSU5GT19DQVJEX1VSTDM6ICdodHRwczovL3d3dy5mYWl6LXdvcmxkLmNvbScsCiAgSEVPX0lORk9fQ0FSRF9URVhUMzogJ+S6huino+abtOWkmicsCgogIC8vIOeUqOaIt+aKgOiDveWbvuaghwogIEhFT19HUk9VUF9JQ09OUzogWwogICAgewogICAgICB0aXRsZV8xOiAnQWZ0ZXJFZmZlY3QnLAogICAgICBpbWdfMTogJy9pbWFnZXMvaGVvLzIwMjM5ZGYzZjY2NjE1YjUzMmNlNTcxZWFjNmQxNGZmMjFjZjA3MjYwMi53ZWJwJywKICAgICAgY29sb3JfMTogJyM5ODliZjgnLAogICAgICB0aXRsZV8yOiAnU2tldGNoJywKICAgICAgaW1nXzI6ICcvaW1hZ2VzL2hlby8yMDIzZTBkZWQ3YjcyNGEzOWYxMmQ1OWMzZGM4ZmJkYzdjYmUwNzQyMDIud2VicCcsCiAgICAgIGNvbG9yXzI6ICcjZmZmZmZmJwogICAgfSwKICAgIHsKICAgICAgdGl0bGVfMTogJ0RvY2tlcicsCiAgICAgIGltZ18xOiAnL2ltYWdlcy9oZW8vMjAyMzExMDhhNTQwYjI4NjJkMjZmODg1MDE3MmU0ZWE1OGVkMDc1MTAyLndlYnAnLAogICAgICBjb2xvcl8xOiAnIzU3YjZlNicsCiAgICAgIHRpdGxlXzI6ICdQaG90b3Nob3AnLAogICAgICBpbWdfMjogJy9pbWFnZXMvaGVvLzIwMjNlNDA1OGE5MTYwOGVhNDE3NTFjNGYxMDJiMTMxZjI2NzA3NTkwMi53ZWJwJywKICAgICAgY29sb3JfMjogJyM0MDgyYzMnCiAgICB9LAogICAgewogICAgICB0aXRsZV8xOiAnRmluYWxDdXRQcm8nLAogICAgICBpbWdfMTogJy9pbWFnZXMvaGVvLzIwMjMzZTc3NzY1MjQxMjI0N2RkNTdmZDliNDhjZjk5N2MwMTA3MDcwMi53ZWJwJywKICAgICAgY29sb3JfMTogJyNmZmZmZmYnLAogICAgICB0aXRsZV8yOiAnUHl0aG9uJywKICAgICAgaW1nXzI6ICcvaW1hZ2VzL2hlby8yMDIzNWMwNzMxY2Q0YzBjOTVmYzEzNmE4ZGI5NjFmZGY5NjMwNzE1MDIud2VicCcsCiAgICAgIGNvbG9yXzI6ICcjZmZmZmZmJwogICAgfSwKICAgIHsKICAgICAgdGl0bGVfMTogJ1N3aWZ0JywKICAgICAgaW1nXzE6ICcvaW1hZ2VzL2hlby8yMDIzMjhiYmVlMGIzMTQyOTc5MTdiMzI3ZGY0YTcwNGRiNWMwNzI0MDIud2VicCcsCiAgICAgIGNvbG9yXzE6ICcjZWI2ODQwJywKICAgICAgdGl0bGVfMjogJ1ByaW5jaXBsZScsCiAgICAgIGltZ18yOiAnL2ltYWdlcy9oZW8vMjAyM2Y3NjU3MGQyNzcwYzhlODQ4MDFmN2UxMDdjZDkxMWI1MDczMjAyLndlYnAnLAogICAgICBjb2xvcl8yOiAnIzhmNTViYScKICAgIH0sCiAgICB7CiAgICAgIHRpdGxlXzE6ICdpbGx1c3RyYXRvcicsCiAgICAgIGltZ18xOiAnL2ltYWdlcy9oZW8vMjAyMzczNTlkNzFiNDVhYjc3ODI5Y2VlNTk3MmUzNmY4YzMwMDczOTAyLndlYnAnLAogICAgICBjb2xvcl8xOiAnI2YyOWUzOScsCiAgICAgIHRpdGxlXzI6ICdDU1MzJywKICAgICAgaW1nXzI6ICcvaW1hZ2VzL2hlby8yMDIzN2M1NDg4NDYwNDRhMjBkYWQ2OGExM2MwZjBlMTUwMmYwNzQ2MDIud2VicCcsCiAgICAgIGNvbG9yXzI6ICcjMmM1MWRiJwogICAgfSwKICAgIHsKICAgICAgdGl0bGVfMTogJ0pTJywKICAgICAgaW1nXzE6ICcvaW1hZ2VzL2hlby8yMDIzNzg2ZTdmYzQ4OGY0NTNkNWZiMmJlNzYwYzk2MTg1YzAwNzU1MDIud2VicCcsCiAgICAgIGNvbG9yXzE6ICcjZjdjYjRmJywKICAgICAgdGl0bGVfMjogJ0hUTUwnLAogICAgICBpbWdfMjogJy9pbWFnZXMvaGVvLzIwMjM3MmI0ZDc2MGZkOGE0OTdkNDQyMTQwYzI5NTY1NTQyNjA3MDMwMi53ZWJwJywKICAgICAgY29sb3JfMjogJyNlOTU3MmInCiAgICB9LAogICAgewogICAgICB0aXRsZV8xOiAnR2l0JywKICAgICAgaW1nXzE6ICcvaW1hZ2VzL2hlby8yMDIzZmZhNTcwN2M0ZTI1YjZiZWIzZTZhM2QyODZlZGU0YzYwNzExMDIud2VicCcsCiAgICAgIGNvbG9yXzE6ICcjZGY1YjQwJywKICAgICAgdGl0bGVfMjogJ1JoaW5vJywKICAgICAgaW1nXzI6ICcvaW1hZ2VzL2hlby8yMDIzMWNhNTNmYTBiMDlhM2ZmMWRmODlhY2Q3NTE1ZTk1MTYxNzMzMDIud2VicCcsCiAgICAgIGNvbG9yXzI6ICcjMWYxZjFmJwogICAgfQogIF0sCgogIEhFT19TT0NJQUxfQ0FSRDogdHJ1ZSwgLy8g5piv5ZCm5pi+56S65Y+z5L6n77yM54K55Ye75Yqg5YWl56S+576k5oyJ6ZKuCiAgSEVPX1NPQ0lBTF9DQVJEX1RJVExFXzE6ICfkuqTmtYHpopHpgZMnLAogIEhFT19TT0NJQUxfQ0FSRF9USVRMRV8yOiAn5YiG5LqrQUnml7bku6PnmoTmiJDplb/lv4PlvpfkuI7kuKrkurrmk43kvZzns7vnu58nLAogIEhFT19TT0NJQUxfQ0FSRF9USVRMRV8zOiAn5LqG6Kej5pu05aSaJywKICBIRU9fU09DSUFMX0NBUkRfVVJMOiAnaHR0cHM6Ly93d3cuZmFpei13b3JsZC5jb20nLAoKICAvLyDlupXpg6jnu5/orqHpnaLmnb/mlofmoYgKICBIRU9fUE9TVF9DT1VOVF9USVRMRTogJ+aWh+eroOaVsDonLAogIEhFT19TSVRFX1RJTUVfVElUTEU6ICflu7rnq5nlpKnmlbA6JywKICBIRU9fU0lURV9WSVNJVF9USVRMRTogJ+iuv+mXrumHjzonLAogIEhFT19TSVRFX1ZJU0lUT1JfVElUTEU6ICforr/lrqLmlbA6JywKCiAgLy8gKioqKiogIOS7peS4i+mFjee9ruaXoOaViO+8jOWPquaYr+mihOeVmeW8gOWPkSAqKioqCiAgLy8g6I+c5Y2V6YWN572uCiAgSEVPX01FTlVfSU5ERVg6IHRydWUsIC8vIOaYvuekuummlumhtQogIEhFT19NRU5VX0NBVEVHT1JZOiB0cnVlLCAvLyDmmL7npLrliIbnsbsKICBIRU9fTUVOVV9UQUc6IHRydWUsIC8vIOaYvuekuuagh+etvgogIEhFT19NRU5VX0FSQ0hJVkU6IHRydWUsIC8vIOaYvuekuuW9kuahowogIEhFT19NRU5VX1NFQVJDSDogdHJ1ZSwgLy8g5pi+56S65pCc57SiCgogIEhFT19QT1NUX0xJU1RfQ09WRVI6IHRydWUsIC8vIOWIl+ihqOaYvuekuuaWh+eroOWwgemdogogIEhFT19QT1NUX0xJU1RfQ09WRVJfSE9WRVJfRU5MQVJHRTogZmFsc2UsIC8vIOWIl+ihqOm8oOagh+aCrOWBnOaUvuWkpwoKICBIRU9fUE9TVF9MSVNUX0NPVkVSX0RFRkFVTFQ6IHRydWUsIC8vIOWwgemdouS4uuepuuaXtueUqOermeeCueiDjOaZr+WBmum7mOiupOWwgemdogogIEhFT19QT1NUX0xJU1RfU1VNTUFSWTogdHJ1ZSwgLy8g5paH56ug5pGY6KaBCiAgSEVPX1BPU1RfTElTVF9QUkVWSUVXOiBmYWxzZSwgLy8g6K+75Y+W5paH56ug6aKE6KeICiAgSEVPX1BPU1RfTElTVF9JTUdfQ1JPU1NPVkVSOiB0cnVlLCAvLyDljZrlrqLliJfooajlm77niYflt6blj7PkuqTplJkKCiAgSEVPX0FSVElDTEVfQURKQUNFTlQ6IHRydWUsIC8vIOaYvuekuuS4iuS4gOevh+S4i+S4gOevh+aWh+eroOaOqOiNkAogIEhFT19BUlRJQ0xFX0NPUFlSSUdIVDogdHJ1ZSwgLy8g5pi+56S65paH56ug54mI5p2D5aOw5piOCiAgSEVPX0FSVElDTEVfTk9UX0JZX0FJOiBmYWxzZSwgLy8g5pi+56S66Z2eQUnlhpnkvZwKICBIRU9fQVJUSUNMRV9SRUNPTU1FTkQ6IHRydWUsIC8vIOaWh+eroOWFs+iBlOaOqOiNkAoKICBIRU9fV0lER0VUX0xBVEVTVF9QT1NUUzogdHJ1ZSwgLy8g5pi+56S65pyA5paw5paH56ug5Y2hCiAgSEVPX1dJREdFVF9BTkFMWVRJQ1M6IGZhbHNlLCAvLyDmmL7npLrnu5/orqHljaEKICBIRU9fV0lER0VUX1RPX1RPUDogdHJ1ZSwKICBIRU9fV0lER0VUX1RPX0NPTU1FTlQ6IHRydWUsIC8vIOi3s+WIsOivhOiuuuWMugogIEhFT19XSURHRVRfREFSS19NT0RFOiB0cnVlLCAvLyDlpJzpl7TmqKHlvI8KICBIRU9fV0lER0VUX1RPQzogdHJ1ZSAvLyDnp7vliqjnq6/mgqzmta7nm67lvZUKfQpleHBvcnQgZGVmYXVsdCBDT05GSUcK
+const CONFIG = {
+  HEO_HOME_POST_TWO_COLS: true, // 首页博客两列显示，若为false则只显示一列
+  HEO_LOADING_COVER: true, // 页面加载的遮罩动画
+
+  HEO_HOME_BANNER_ENABLE: true,
+
+  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+
+  // 首页顶部通知条滚动内容，如不需要可以留空 []
+  HEO_NOTICE_BAR: [
+    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
+    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+  ],
+
+  // 英雄区左右侧组件颠倒位置
+  HEO_HERO_REVERSE: false,
+  // 博客主体区左右侧组件颠倒位置
+  HEO_HERO_BODY_REVERSE: false,
+
+  // 英雄区(首页顶部大卡)
+  HEO_HERO_TITLE_1: '分享编程',
+  HEO_HERO_TITLE_2: '与思维认知',
+  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
+  HEO_HERO_TITLE_4: '新版上线',
+  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
+  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  // 英雄区遮罩文字
+  HEO_HERO_COVER_TITLE: '随便逛逛',
+
+  // 英雄区显示三个置顶分类
+  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
+  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
+  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+
+  // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
+  HEO_HERO_RECOMMEND_POST_TAG: '推荐',
+  HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
+  //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
+
+  // 右侧个人资料卡牌欢迎语，点击可自动切换
+  HEO_INFOCARD_GREETINGS: [
+    '你好！我是',
+    '🔍 分享与热心帮助',
+    '🤝 专修交互与设计',
+    '🏃 脚踏实地行动派',
+    '🏠 智能家居小能手',
+    '🤖️ 数码科技爱好者',
+    '🧱 团队小组发动机'
+  ],
+
+  // 个人资料底部按钮
+  HEO_INFO_CARD_URL1: '/about',
+  HEO_INFO_CARD_ICON1: 'fas fa-user',
+  HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
+  HEO_INFO_CARD_ICON2: 'fab fa-github',
+  HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
+  HEO_INFO_CARD_TEXT3: '了解更多',
+
+  // 用户技能图标
+  HEO_GROUP_ICONS: [
+    {
+      title_1: 'AfterEffect',
+      img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
+      color_1: '#989bf8',
+      title_2: 'Sketch',
+      img_2: '/images/heo/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.webp',
+      color_2: '#ffffff'
+    },
+    {
+      title_1: 'Docker',
+      img_1: '/images/heo/20231108a540b2862d26f8850172e4ea58ed075102.webp',
+      color_1: '#57b6e6',
+      title_2: 'Photoshop',
+      img_2: '/images/heo/2023e4058a91608ea41751c4f102b131f267075902.webp',
+      color_2: '#4082c3'
+    },
+    {
+      title_1: 'FinalCutPro',
+      img_1: '/images/heo/20233e777652412247dd57fd9b48cf997c01070702.webp',
+      color_1: '#ffffff',
+      title_2: 'Python',
+      img_2: '/images/heo/20235c0731cd4c0c95fc136a8db961fdf963071502.webp',
+      color_2: '#ffffff'
+    },
+    {
+      title_1: 'Swift',
+      img_1: '/images/heo/202328bbee0b314297917b327df4a704db5c072402.webp',
+      color_1: '#eb6840',
+      title_2: 'Principle',
+      img_2: '/images/heo/2023f76570d2770c8e84801f7e107cd911b5073202.webp',
+      color_2: '#8f55ba'
+    },
+    {
+      title_1: 'illustrator',
+      img_1: '/images/heo/20237359d71b45ab77829cee5972e36f8c30073902.webp',
+      color_1: '#f29e39',
+      title_2: 'CSS3',
+      img_2: '/images/heo/20237c548846044a20dad68a13c0f0e1502f074602.webp',
+      color_2: '#2c51db'
+    },
+    {
+      title_1: 'JS',
+      img_1: '/images/heo/2023786e7fc488f453d5fb2be760c96185c0075502.webp',
+      color_1: '#f7cb4f',
+      title_2: 'HTML',
+      img_2: '/images/heo/202372b4d760fd8a497d442140c295655426070302.webp',
+      color_2: '#e9572b'
+    },
+    {
+      title_1: 'Git',
+      img_1: '/images/heo/2023ffa5707c4e25b6beb3e6a3d286ede4c6071102.webp',
+      color_1: '#df5b40',
+      title_2: 'Rhino',
+      img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
+      color_2: '#1f1f1f'
+    }
+  ],
+
+  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
+  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
+  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
+  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+
+  // 底部统计面板文案
+  HEO_POST_COUNT_TITLE: '文章数:',
+  HEO_SITE_TIME_TITLE: '建站天数:',
+  HEO_SITE_VISIT_TITLE: '访问量:',
+  HEO_SITE_VISITOR_TITLE: '访客数:',
+
+  // *****  以下配置无效，只是预留开发 ****
+  // 菜单配置
+  HEO_MENU_INDEX: true, // 显示首页
+  HEO_MENU_CATEGORY: true, // 显示分类
+  HEO_MENU_TAG: true, // 显示标签
+  HEO_MENU_ARCHIVE: true, // 显示归档
+  HEO_MENU_SEARCH: true, // 显示搜索
+
+  HEO_POST_LIST_COVER: true, // 列表显示文章封面
+  HEO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
+
+  HEO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
+  HEO_POST_LIST_SUMMARY: true, // 文章摘要
+  HEO_POST_LIST_PREVIEW: false, // 读取文章预览
+  HEO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
+
+  HEO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
+  HEO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
+  HEO_ARTICLE_NOT_BY_AI: false, // 显示非AI写作
+  HEO_ARTICLE_RECOMMEND: true, // 文章关联推荐
+
+  HEO_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
+  HEO_WIDGET_ANALYTICS: false, // 显示统计卡
+  HEO_WIDGET_TO_TOP: true,
+  HEO_WIDGET_TO_COMMENT: true, // 跳到评论区
+  HEO_WIDGET_DARK_MODE: true, // 夜间模式
+  HEO_WIDGET_TOC: true // 移动端悬浮目录
+}
+export default CONFIG
