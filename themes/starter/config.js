@@ -19,7 +19,7 @@ const CONFIG = {
   STARTER_HERO_TITLE_2: '人生操作系统',
   STARTER_HERO_BUTTON_1_TEXT: '了解系统',
   STARTER_HERO_BUTTON_1_URL:
-    'https://www.notion.so', // TODO: 替换为知行合一 Notion 模板公开页链接
+    'https://faize.notion.site/4ee6b996aa5e82a18f5a01157efe93b6?source=copy_link',
   STARTER_HERO_BUTTON_2_TEXT: '看演示站',
   STARTER_HERO_BUTTON_2_URL: 'https://www.faiz-world.com',
   STARTER_HERO_BUTTON_2_ICON: '',
@@ -64,7 +64,7 @@ const CONFIG = {
     '「知行合一」不是「功能清单」。<br/><br/>它来自一个真实的困境：试过 GTD、子弹笔记、番茄钟，每一个都死于「系统太重」或「做完没反馈」。<br/><br/>不是懒——是大多数系统没有解决三个根本问题：<strong>维护负担太重，成长看不见，做完了没有反馈。</strong><br/><br/>三个设计原则从此出发：<br/><br/>① <strong>单点录入，全局同步</strong>——只记一次，剩下的系统替你完成。<br/><br/>② <strong>零维护的游戏化</strong>——29 条自动化规则 + 65 条智能计算公式，你只管做，XP 自动结算。<br/><br/>③ <strong>渐进披露</strong>——新手只跑手机端就够了，系统全貌是给三个月后的你准备的。<br/><br/>你不需要一次性学会所有功能。<br/>你只需要：打开 → 记一件事 → 关掉。<br/>剩下的，它会带着你往前走。',
   STARTER_ABOUT_BUTTON_TEXT: '查看完整设计理念',
   STARTER_ABOUT_BUTTON_URL:
-    'https://www.notion.so', // TODO: 替换为设计理念文档链接
+    'https://faize.notion.site/2b86b996aa5e82d487b781827e3af42f?source=copy_link',
   STARTER_ABOUT_IMAGE_1: '',
   STARTER_ABOUT_IMAGE_2: '',
   STARTER_ABOUT_TIPS_1: '65',
@@ -86,7 +86,7 @@ const CONFIG = {
   STARTER_PRICING_1_FEATURES: '基础执行系统,习惯打卡模块,每日动态站,人物志基础版',
   STARTER_PRICING_1_BUTTON_TEXT: '免费获取',
   STARTER_PRICING_1_BUTTON_URL:
-    'https://www.notion.so', // TODO: 替换为模板链接
+    'https://faize.notion.site/4ee6b996aa5e82a18f5a01157efe93b6?source=copy_link',
 
   STARTER_PRICING_2_TAG: '完整版',
   STARTER_PRICING_2_TITLE: '知行合一 · 完整版',
@@ -96,9 +96,8 @@ const CONFIG = {
   STARTER_PRICING_2_HEADER: '包含内容',
   STARTER_PRICING_2_FEATURES:
     '完整八大模块,双币经济体系,五层复盘系统,想法实验室,健康管理,使用指南,永久更新',
-  STARTER_PRICING_2_BUTTON_TEXT: '立即获取',
-  STARTER_PRICING_2_BUTTON_URL:
-    'https://gumroad.com', // TODO: 替换为 Gumroad 购买链接
+  STARTER_PRICING_2_BUTTON_TEXT: '即将上线',
+  STARTER_PRICING_2_BUTTON_URL: '#',
 
   STARTER_PRICING_3_TAG: '',
   STARTER_PRICING_3_TITLE: '启动陪跑',
@@ -108,9 +107,8 @@ const CONFIG = {
   STARTER_PRICING_3_HEADER: '包含内容',
   STARTER_PRICING_3_FEATURES:
     '完整模板包,7天启动指导（1v1）,首月复盘支持,不在模板里而在电话里的设计心法',
-  STARTER_PRICING_3_BUTTON_TEXT: '预约咨询',
-  STARTER_PRICING_3_BUTTON_URL:
-    'https://faiz-world.com/about', // TODO: 替换为联系页面链接
+  STARTER_PRICING_3_BUTTON_TEXT: '即将上线',
+  STARTER_PRICING_3_BUTTON_URL: '#',
 
   // ===== TESTIMONIALS 用户测评 =====
   STARTER_TESTIMONIALS_ENABLE: false,
@@ -182,7 +180,8 @@ const CONFIG = {
   STARTER_CTA_DESCRIPTION:
     '知行合一的设计只有一个标准：这个系统能不能让你从「想做到」变成「真的在做」。打开它，记一件事，然后关掉——这就是第一天。',
   STARTER_CTA_BUTTON: true,
-  STARTER_CTA_BUTTON_URL: 'https://www.notion.so', // TODO: 替换为模板链接
+  STARTER_CTA_BUTTON_URL:
+    'https://faize.notion.site/4ee6b996aa5e82a18f5a01157efe93b6?source=copy_link',
   STARTER_CTA_BUTTON_TEXT: '开始使用',
 
   // ===== FOOTER =====
@@ -194,19 +193,23 @@ const CONFIG = {
       LINK_GROUP: [
         {
           TITLE: '了解知行合一',
-          URL: 'https://www.notion.so' // TODO: 替换
+          URL:
+            'https://faize.notion.site/4ee6b996aa5e82a18f5a01157efe93b6?source=copy_link'
         },
         {
           TITLE: '使用指南',
-          URL: 'https://www.notion.so' // TODO: 替换
+          URL:
+            'https://faize.notion.site/4ee6b996aa5e82a18f5a01157efe93b6?source=copy_link'
         },
         {
           TITLE: '设计理念',
-          URL: 'https://www.notion.so' // TODO: 替换
+          URL:
+            'https://faize.notion.site/2b86b996aa5e82d487b781827e3af42f?source=copy_link'
         },
         {
           TITLE: '快速上手',
-          URL: 'https://www.notion.so' // TODO: 替换
+          URL:
+            'https://faize.notion.site/4ee6b996aa5e82a18f5a01157efe93b6?source=copy_link'
         }
       ]
     },
@@ -219,15 +222,18 @@ const CONFIG = {
         },
         {
           TITLE: '执行系统速查',
-          URL: 'https://www.notion.so' // TODO: 替换
+          URL:
+            'https://faize.notion.site/4ee6b996aa5e82a18f5a01157efe93b6?source=copy_link'
         },
         {
           TITLE: '习惯打卡指南',
-          URL: 'https://www.notion.so' // TODO: 替换
+          URL:
+            'https://faize.notion.site/4ee6b996aa5e82a18f5a01157efe93b6?source=copy_link'
         },
         {
           TITLE: '复盘体系说明',
-          URL: 'https://www.notion.so' // TODO: 替换
+          URL:
+            'https://faize.notion.site/4ee6b996aa5e82a18f5a01157efe93b6?source=copy_link'
         }
       ]
     },
