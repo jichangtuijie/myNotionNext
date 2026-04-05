@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 import DashboardButton from '@/components/ui/dashboard/DashboardButton'
 import { siteConfig } from '@/lib/config'
 import { useGlobal } from '@/lib/global'
@@ -66,42 +68,6 @@ export const Header = props => {
             {/* 右侧功能按钮 — 固定宽度 */}
             <div className='flex-shrink-0 flex items-center gap-4'>
               <DarkModeButton />
-              {enableClerk && (
-                <>
-                  <SignedOut>
-                    <div className='hidden sm:flex gap-4'>
-                      <SmartLink
-                        href={siteConfig('STARTER_NAV_BUTTON_1_URL', '')}
-                        className={`loginBtn ${buttonTextColor} text-base font-medium hover:opacity-70`}>
-                        {siteConfig('STARTER_NAV_BUTTON_1_TEXT')}
-                      </SmartLink>
-                      <SmartLink
-                        href={siteConfig('STARTER_NAV_BUTTON_2_URL', '')}
-                        className={`signUpBtn ${buttonTextColor} px-4 py-2 rounded-md bg-white bg-opacity-20 text-base font-medium duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark`}>
-                        {siteConfig('STARTER_NAV_BUTTON_2_TEXT')}
-                      </SmartLink>
-                    </div>
-                  </SignedOut>
-                  <SignedIn>
-                    <UserButton />
-                    <DashboardButton className={'hidden md:block'} />
-                  </SignedIn>
-                </>
-              )}
-              {!enableClerk && (
-                <div className='hidden sm:flex gap-4'>
-                  <SmartLink
-                    href={siteConfig('STARTER_NAV_BUTTON_1_URL', '')}
-                    className={`loginBtn ${buttonTextColor} text-base font-medium hover:opacity-70`}>
-                    {siteConfig('STARTER_NAV_BUTTON_1_TEXT')}
-                  </SmartLink>
-                  <SmartLink
-                    href={siteConfig('STARTER_NAV_BUTTON_2_URL', '')}
-                    className={`signUpBtn ${buttonTextColor} px-4 py-2 rounded-md bg-white bg-opacity-20 text-base font-medium duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark`}>
-                    {siteConfig('STARTER_NAV_BUTTON_2_TEXT')}
-                  </SmartLink>
-                </div>
-              )}
             </div>
           </div>
         </div>
